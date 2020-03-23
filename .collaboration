@@ -81,12 +81,12 @@
   },
   {
     "ModuleName": "页面1",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-03-23T18:20:31.9426517+08:00",
+    "LockDateTime": "2020-03-23T18:20:52.7676528+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\页面1.json"
@@ -141,5 +141,15 @@
     },
     "LockDateTime": "2020-03-23T18:19:38.6388426+08:00",
     "ModuleType": 3
+  },
+  {
+    "ModuleName": "首页",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-23T18:20:52.7676528+08:00",
+    "ModuleType": 1
   }
 ]
