@@ -122,5 +122,15 @@
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "母版页",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-23T18:19:38.6388426+08:00",
+    "ModuleType": 3
   }
 ]
