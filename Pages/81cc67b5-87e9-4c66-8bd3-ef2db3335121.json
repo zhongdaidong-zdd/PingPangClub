@@ -1,0 +1,240 @@
+{
+  "Rows": {
+    "Sizes": {
+      "2": 20.0
+    },
+    "Count": 5,
+    "DefaultSize": 10.0
+  },
+  "Cols": {
+    "Count": 44
+  },
+  "Values": {
+    "1,15": "3 : 2"
+  },
+  "AttachInfos": {
+    "1,11": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy"
+      },
+      "TemplateCellSource": "选手A"
+    },
+    "1,15": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "3 : 2"
+      }
+    },
+    "1,24": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy"
+      },
+      "TemplateCellSource": "选手B"
+    },
+    "2,1": {
+      "TemplateCellSource": "比赛时间"
+    },
+    "2,8": {
+      "TemplateCellSource": "选手A"
+    },
+    "2,27": {
+      "TemplateCellSource": "选手B"
+    },
+    "2,32": {
+      "TemplateCellSource": "比赛类型ID"
+    },
+    "2,38": {
+      "TemplateCellSource": "花落谁家"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 2 60",
+        "Bold",
+        "@",
+        "Center",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 1,
+      "0,16": 1,
+      "0,17": 1,
+      "0,18": 1,
+      "0,19": 1,
+      "0,20": 1,
+      "0,21": 1,
+      "0,22": 1,
+      "0,23": 1,
+      "0,24": 1,
+      "0,25": 1,
+      "0,26": 1,
+      "0,27": 1,
+      "0,28": 1,
+      "0,29": 1,
+      "0,30": 1,
+      "0,31": 1,
+      "0,32": 1,
+      "0,33": 1,
+      "0,34": 1,
+      "0,35": 1,
+      "0,36": 1,
+      "0,37": 1,
+      "0,38": 1,
+      "0,39": 1,
+      "0,40": 1,
+      "0,41": 1,
+      "0,42": 1,
+      "0,43": 2,
+      "1,0": 3,
+      "1,15": 4,
+      "1,43": 5,
+      "2,0": 3,
+      "2,43": 5,
+      "3,0": 3,
+      "3,43": 5,
+      "4,0": 6,
+      "4,1": 7,
+      "4,2": 7,
+      "4,3": 7,
+      "4,4": 7,
+      "4,5": 7,
+      "4,6": 7,
+      "4,7": 7,
+      "4,8": 7,
+      "4,9": 7,
+      "4,10": 7,
+      "4,11": 7,
+      "4,12": 7,
+      "4,13": 7,
+      "4,14": 7,
+      "4,15": 7,
+      "4,16": 7,
+      "4,17": 7,
+      "4,18": 7,
+      "4,19": 7,
+      "4,20": 7,
+      "4,21": 7,
+      "4,22": 7,
+      "4,23": 7,
+      "4,24": 7,
+      "4,25": 7,
+      "4,26": 7,
+      "4,27": 7,
+      "4,28": 7,
+      "4,29": 7,
+      "4,30": 7,
+      "4,31": 7,
+      "4,32": 7,
+      "4,33": 7,
+      "4,34": 7,
+      "4,35": 7,
+      "4,36": 7,
+      "4,37": 7,
+      "4,38": 7,
+      "4,39": 7,
+      "4,40": 7,
+      "4,41": 7,
+      "4,42": 7,
+      "4,43": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 4
+    }
+  },
+  "Spans": [
+    "2,1,1,5",
+    "2,8,1,3",
+    "1,11,3,2",
+    "1,24,3,2",
+    "2,27,1,3",
+    "2,32,1,5",
+    "2,38,1,4",
+    "1,15,3,7"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "linear-gradient(-90deg, Accent_1 0.00%, Accent_2_60 100.00%, Background_1 100.00%)",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "4f9c5ee6-035e-448a-8b25-d91178cc3de9.png",
+      "Size": "880,60"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, Forguncy",
+    "ParentPageName": "首页"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
