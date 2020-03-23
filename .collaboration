@@ -98,7 +98,18 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-23T18:24:53.4136218+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "TableSet",
+      "ForguncyDB.sqlite3",
+      "DataConnectionSet"
+    ]
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
