@@ -98,12 +98,12 @@
   },
   {
     "ModuleName": "首页",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-03-24T18:55:25.5451149+08:00",
+    "LockDateTime": "2020-03-24T19:10:51.596034+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\首页.json",
