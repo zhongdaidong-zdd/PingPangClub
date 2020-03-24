@@ -173,5 +173,15 @@
     "ToRemoveFiles": [
       "Pages\\比赛总信息_列表页面.json"
     ]
+  },
+  {
+    "ModuleName": "页面2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-24T18:43:07.3256646+08:00",
+    "ModuleType": 1
   }
 ]
