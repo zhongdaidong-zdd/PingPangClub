@@ -85,7 +85,18 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-24T18:38:01.2718319+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "TableSet",
+      "ForguncyDB.sqlite3",
+      "DataConnectionSet"
+    ]
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
@@ -125,14 +136,42 @@
   },
   {
     "ModuleName": "首页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-24T18:38:01.2738313+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\首页.json",
+      "Pages\\81cc67b5-87e9-4c66-8bd3-ef2db3335121.json"
+    ]
   },
   {
     "ModuleName": "比赛总信息_详情页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-24T18:38:01.2738313+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\比赛总信息_详情页面.json"
+    ]
   },
   {
     "ModuleName": "比赛总信息_列表页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-24T18:38:01.2728324+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\比赛总信息_列表页面.json"
+    ]
   }
 ]
