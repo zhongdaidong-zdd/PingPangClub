@@ -52,7 +52,17 @@
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
-    "ModuleType": 8
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-24T18:57:23.3922848+08:00",
+    "ModuleType": 8,
+    "ToRemoveFiles": [
+      "ApplicationSettings",
+      "favicon.ico"
+    ]
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
