@@ -13,6 +13,16 @@
       "58": 60.0,
       "59": 60.0
     },
+    "InLogicalVisibleIndexes": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
     "Count": 60
   },
   "AttachInfos": {
@@ -41,21 +51,21 @@
     "3,53": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "选手A"
+        "ColumnName": "挑战方"
       },
       "NameUsedInJavaScript": "选手A"
     },
     "3,54": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "选手B"
+        "ColumnName": "被挑战方"
       },
       "NameUsedInJavaScript": "选手B"
     },
     "3,55": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "比赛时间"
+        "ColumnName": "比赛日期"
       },
       "NameUsedInJavaScript": "比赛时间"
     },
@@ -69,14 +79,14 @@
     "3,57": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "花落谁家"
+        "ColumnName": "获胜方"
       },
       "NameUsedInJavaScript": "花落谁家"
     },
     "3,58": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "比赛类型ID"
+        "ColumnName": "赛季"
       },
       "NameUsedInJavaScript": "比赛类型ID"
     },

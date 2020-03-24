@@ -33,32 +33,6 @@
       },
       "TemplateCellSource": "选手A"
     },
-    "1,15": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
-          }
-        ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
-        "CellDefaultValue": "3 : 2"
-      }
-    },
     "1,24": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
@@ -114,8 +88,7 @@
       {
         "FontSize": 24.0,
         "FontWeight": 1,
-        "Formatter": 2,
-        "HorizontalAlignment": 3
+        "HorizontalAlignment": 2
       },
       {
         "BorderRight": 0
@@ -134,9 +107,8 @@
     ],
     "Types": {
       "Strs": [
-        "Text 2 60",
+        "Accent 1 40",
         "Bold",
-        "@",
         "Center",
         "Body"
       ],
@@ -244,7 +216,7 @@
       "4,43": 8
     },
     "SheetStyle": {
-      "FontFamily": 4
+      "FontFamily": 3
     }
   },
   "Spans": [
