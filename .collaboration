@@ -121,12 +121,12 @@
   },
   {
     "ModuleName": "页面2",
-    "State": 4,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-03-24T19:11:16.0503075+08:00",
+    "LockDateTime": "2020-03-24T19:51:26.7145615+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\页面2.json"
@@ -151,5 +151,15 @@
     },
     "LockDateTime": "2020-03-24T19:10:16.2805802+08:00",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "积分挑战赛比赛登记",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-24T19:51:26.7145615+08:00",
+    "ModuleType": 1
   }
 ]
