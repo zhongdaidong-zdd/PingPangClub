@@ -112,12 +112,12 @@
   },
   {
     "ModuleName": "页面2",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-03-24T18:49:22.7361998+08:00",
+    "LockDateTime": "2020-03-24T19:11:16.0503075+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\页面2.json"
