@@ -64,7 +64,7 @@
           <Name>FGC_LastModifyDate</Name>
         </Item>
       </Columns>
-      <Name>比赛总信息</Name>
+      <Name>积分挑战赛总信息</Name>
       <PrimaryKey>
         <Item type="System.String">
           <Value>ID</Value>
@@ -129,7 +129,7 @@
           <Name>FGC_LastModifyDate</Name>
         </Item>
       </Columns>
-      <Name>比赛详细信息</Name>
+      <Name>积分挑战赛详细信息</Name>
       <PrimaryKey>
         <Item type="System.String">
           <Value>ID</Value>

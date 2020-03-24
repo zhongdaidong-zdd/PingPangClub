@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ApplicationSettings>
+  <AuthenticationMode>Windows</AuthenticationMode>
   <IntegrateWithOtherApplication>
     <Password>bzRvlii$5iPg</Password>
   </IntegrateWithOtherApplication>

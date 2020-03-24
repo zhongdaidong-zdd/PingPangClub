@@ -8,90 +8,12 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "FGC_修改密码",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5085202+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\内建页面\\FGC_修改密码.json"
-    ]
-  },
-  {
-    "ModuleName": "FGC_忘记密码",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5085202+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\内建页面\\FGC_忘记密码.json"
-    ]
-  },
-  {
     "ModuleName": "FGC_邮件订阅",
     "ModuleType": 1
   },
   {
     "ModuleName": "FGC_维护中",
     "ModuleType": 1
-  },
-  {
-    "ModuleName": "FGC_修改用户信息",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5085202+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\内建页面\\FGC_修改用户信息.json"
-    ]
-  },
-  {
-    "ModuleName": "FGC_重置密码",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5095194+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\内建页面\\FGC_重置密码.json"
-    ]
-  },
-  {
-    "ModuleName": "FGC_重置密码发送邮件成功",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5095194+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\内建页面\\FGC_重置密码发送邮件成功.json"
-    ]
-  },
-  {
-    "ModuleName": "FGC_登录",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5095194+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\内建页面\\FGC_登录.json"
-    ]
   },
   {
     "ModuleName": "Pages\\内建手机页面",
@@ -102,32 +24,6 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "FGC_修改密码_手机版",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5085202+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\内建手机页面\\FGC_修改密码_手机版.json"
-    ]
-  },
-  {
-    "ModuleName": "FGC_忘记密码_手机版",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5085202+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\内建手机页面\\FGC_忘记密码_手机版.json"
-    ]
-  },
-  {
     "ModuleName": "FGC_邮件订阅_手机版",
     "ModuleType": 2
   },
@@ -136,89 +32,16 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "FGC_修改用户信息_手机版",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5085202+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\内建手机页面\\FGC_修改用户信息_手机版.json"
-    ]
-  },
-  {
-    "ModuleName": "FGC_重置密码发送邮件成功_手机版",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5095194+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\内建手机页面\\FGC_重置密码发送邮件成功_手机版.json"
-    ]
-  },
-  {
-    "ModuleName": "FGC_重置密码_手机版",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5095194+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\内建手机页面\\FGC_重置密码_手机版.json"
-    ]
-  },
-  {
-    "ModuleName": "FGC_登录_手机版",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5095194+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\内建手机页面\\FGC_登录_手机版.json"
-    ]
-  },
-  {
     "ModuleName": "FGC_母版页",
     "ModuleType": 3
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:38:01.2718319+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:47:43.5085202+08:00",
-    "ModuleType": 8,
-    "ToRemoveFiles": [
-      "ApplicationSettings",
-      "favicon.ico"
-    ]
+    "ModuleType": 8
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
@@ -254,52 +77,10 @@
   },
   {
     "ModuleName": "首页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:38:01.2738313+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\首页.json",
-      "Pages\\81cc67b5-87e9-4c66-8bd3-ef2db3335121.json"
-    ]
-  },
-  {
-    "ModuleName": "比赛总信息_详情页面",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:40:45.2123653+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\比赛总信息_详情页面.json"
-    ]
-  },
-  {
-    "ModuleName": "比赛总信息_列表页面",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:40:45.2133645+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\比赛总信息_列表页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "页面2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-24T18:43:07.3256646+08:00",
     "ModuleType": 1
   }
 ]
