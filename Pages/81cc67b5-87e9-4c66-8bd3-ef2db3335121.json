@@ -15,41 +15,13 @@
   "AttachInfos": {
     "1,11": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.ImageCellType, Forguncy"
       },
       "TemplateCellSource": "选手A"
     },
     "1,24": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.ImageCellType, Forguncy"
       },
       "TemplateCellSource": "选手B"
     },

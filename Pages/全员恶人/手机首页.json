@@ -1,0 +1,56 @@
+{
+  "Rows": {
+    "Count": 28
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "0,0,2,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
