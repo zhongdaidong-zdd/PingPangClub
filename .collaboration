@@ -89,6 +89,15 @@
   },
   {
     "ModuleName": "手机首页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-31T18:33:17.7216787+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\手机首页.json"
+    ]
   }
 ]
