@@ -161,5 +161,15 @@
     "ToRemoveFiles": [
       "Pages\\小蜜蜂\\积分挑战赛比赛信息登记.json"
     ]
+  },
+  {
+    "ModuleName": "手机母版页",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-31T18:28:43.5963695+08:00",
+    "ModuleType": 4
   }
 ]
