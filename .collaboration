@@ -85,10 +85,26 @@
   },
   {
     "ModuleName": "Pages\\小蜜蜂",
-    "ModuleType": 6
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-31T18:13:12.5401837+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "积分挑战赛比赛信息登记",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-31T18:13:12.5451813+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\小蜜蜂\\积分挑战赛比赛信息登记.json"
+    ]
   }
 ]
