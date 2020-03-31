@@ -73,7 +73,16 @@
   },
   {
     "ModuleName": "母版页",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-31T18:35:37.61971+08:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "Pages\\母版页.json"
+    ]
   },
   {
     "ModuleName": "首页",
