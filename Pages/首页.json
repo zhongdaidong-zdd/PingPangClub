@@ -108,38 +108,66 @@
   "StyleDatas": {
     "Styles": [
       {
-        "FontFamily": 0
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
+        "BorderBottom": null,
         "BorderTop": 0,
-        "BorderLeft": 0
+        "BorderLeft": 0,
+        "BorderRight": null
       },
       {
-        "BorderTop": 0
-      },
-      {
+        "BorderBottom": null,
         "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
         "BorderRight": 0
       },
       {
-        "BorderLeft": 0
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
       },
       {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
         "BorderRight": 0
       },
       {
         "FontFamily": 0,
-        "HorizontalAlignment": 2
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "BorderBottom": 0,
-        "BorderLeft": 0
-      },
-      {
-        "BorderBottom": 0
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
       },
       {
         "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
         "BorderRight": 0
       }
     ],
@@ -1345,7 +1373,11 @@
       "36,46": 0
     },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
@@ -1365,7 +1397,7 @@
         "Fill": "Text 2 60"
       },
       "IsAutomaticFill": false,
-      "Name": "83e24d89-5fa5-49f5-bb20-b3cac95f9419.png",
+      "Name": "d7dff3dc-d1f8-4171-a89a-045695b7c0cd",
       "Location": "120,40",
       "Size": "140,100"
     }
