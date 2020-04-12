@@ -23,6 +23,20 @@
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, Forguncy",
         "Text": "登出，并使用其他账号重新登录",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ForguncyAttribute": "401Login"
       }
     }

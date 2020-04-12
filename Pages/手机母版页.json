@@ -3,22 +3,28 @@
     "Count": 28
   },
   "Cols": {
-    "Count": 18
+    "Count": 15
   },
   "AttachInfos": {
     "1,6": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
         "TemplateKey": "_RS_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ImagePath": "fgc_logo_light.png"
-      }
-    },
-    "1,15": {
-      "CellType": {
-        "$type": "Forguncy.CurrentUserCellType, Forguncy",
-        "ShowUserDisplayName": false,
-        "NavigateToHomePageWhenLogout": true,
-        "CellCustomValue": "%CurrentUser%"
       }
     },
     "4,0": {
@@ -120,10 +126,9 @@
     }
   },
   "Spans": [
-    "4,0,21,18",
+    "4,0,21,15",
     "1,6,3,6",
-    "25,0,3,18",
-    "1,15,2,2"
+    "25,0,3,15"
   ],
   "BackgroundPictures": [
     {
@@ -131,7 +136,7 @@
       "Stretch": 3,
       "ForguncyPictureSourceType": 2,
       "Name": "475ed418-ecb5-44e5-9243-064b15ab14e4",
-      "Size": "360,80"
+      "Size": "300,80"
     }
   ],
   "PageInfo": {

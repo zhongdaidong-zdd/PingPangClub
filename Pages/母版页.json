@@ -15,6 +15,20 @@
     "1,1": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ImagePath": "fgc_logo_light.png"
       }
     },
@@ -151,9 +165,9 @@
   },
   "Spans": [
     "1,1,5,10",
-    "7,12,29,52",
     "2,54,3,10",
-    "7,0,29,12"
+    "7,0,29,12",
+    "7,12,29,52"
   ],
   "BackgroundPictures": [
     {
