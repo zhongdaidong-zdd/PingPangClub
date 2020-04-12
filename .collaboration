@@ -97,6 +97,15 @@
   },
   {
     "ModuleName": "新建积分挑战赛记录",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-12T17:29:25.7616103+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\新建积分挑战赛记录.json"
+    ]
   }
 ]
