@@ -101,7 +101,13 @@
       "CellType": {
         "$type": "Forguncy.RepeaterCellType, Forguncy",
         "ListviewName": "比赛总信息",
-        "TemplatePageName": "81cc67b5-87e9-4c66-8bd3-ef2db3335121"
+        "TemplatePageName": "81cc67b5-87e9-4c66-8bd3-ef2db3335121",
+        "NoItemSetting": {
+          "ImageForNoItem": {
+            "Name": "[5620]EMIRIA-59911790.jpg"
+          },
+          "NoItemImageSize": 300.0
+        }
       }
     }
   },

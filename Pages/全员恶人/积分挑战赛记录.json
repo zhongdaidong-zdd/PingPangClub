@@ -176,7 +176,7 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=积分挑战比赛记录!T6"
+                        "SerializeProperty": "=积分挑战赛记录!T6"
                       }
                     ]
                   },
@@ -196,7 +196,7 @@
                       },
                       {
                         "Cell": {
-                          "SerializeProperty": "=积分挑战比赛记录!T6"
+                          "SerializeProperty": "=积分挑战赛记录!T6"
                         },
                         "Value": "5"
                       }
@@ -212,7 +212,7 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=积分挑战比赛记录!T6"
+                        "SerializeProperty": "=积分挑战赛记录!T6"
                       }
                     ]
                   },
@@ -232,7 +232,7 @@
                       },
                       {
                         "Cell": {
-                          "SerializeProperty": "=积分挑战比赛记录!T6"
+                          "SerializeProperty": "=积分挑战赛记录!T6"
                         },
                         "Value": "7"
                       }
@@ -248,7 +248,7 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=积分挑战比赛记录!T6"
+                        "SerializeProperty": "=积分挑战赛记录!T6"
                       }
                     ]
                   },
@@ -996,7 +996,7 @@
           },
           {
             "Cell": {
-              "SerializeProperty": "=积分挑战比赛记录!T6"
+              "SerializeProperty": "=积分挑战赛记录!T6"
             },
             "Value": "3"
           }
@@ -1020,15 +1020,15 @@
   "CustomNames": [
     {
       "Name": "Five",
-      "Formula": "积分挑战比赛记录!$A$14:$S$16"
+      "Formula": "积分挑战赛记录!$A$14:$S$16"
     },
     {
       "Name": "Seven",
-      "Formula": "积分挑战比赛记录!$A$18:$S$20"
+      "Formula": "积分挑战赛记录!$A$18:$S$20"
     },
     {
       "Name": "局数",
-      "Formula": "积分挑战比赛记录!$T$6"
+      "Formula": "积分挑战赛记录!$T$6"
     }
   ]
 }

@@ -1,0 +1,221 @@
+{
+  "Rows": {
+    "Sizes": {
+      "0": 20.0,
+      "5": 4.0
+    },
+    "Count": 6,
+    "DefaultSize": 10.0
+  },
+  "Cols": {
+    "Count": 15
+  },
+  "Values": {
+    "0,0": "比赛时间：",
+    "0,8": "胜者：李胜男",
+    "1,8": "3：1",
+    "2,0": "2019/02/03",
+    "2,5": "钟代冬",
+    "2,10": "李胜男"
+  },
+  "DateValues": {
+    "0,3": "2019-02-08T00:00:00"
+  },
+  "AttachInfos": {
+    "1,3": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "1,13": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "2,0": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "CellDefaultValue": "2019/02/03"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 10.666666666666666
+      },
+      {
+        "FontSize": 10.666666666666666,
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 10.666666666666666,
+        "Formatter": 2
+      },
+      {
+        "FontSize": 12.0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 12.0
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "Formatter": 2
+      },
+      {
+        "FontSize": 12.0,
+        "Formatter": 3
+      },
+      {
+        "FontSize": 13.333333333333332
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "[AUTO]yyyy/M/d",
+        "Body",
+        "[AUTO]General",
+        "@"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,3": 1,
+      "0,7": 0,
+      "0,8": 2,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "1,0": 3,
+      "1,1": 3,
+      "1,2": 3,
+      "1,3": 4,
+      "1,4": 5,
+      "1,5": 4,
+      "1,6": 4,
+      "1,7": 4,
+      "1,8": 6,
+      "1,10": 3,
+      "1,11": 3,
+      "1,12": 3,
+      "2,0": 7,
+      "2,3": 5,
+      "2,4": 5,
+      "2,5": 6,
+      "2,6": 5,
+      "2,7": 5,
+      "2,10": 3,
+      "3,3": 5,
+      "3,4": 5,
+      "3,5": 5,
+      "3,6": 5,
+      "3,7": 5,
+      "4,0": 3,
+      "4,1": 3,
+      "4,2": 3,
+      "4,3": 5,
+      "4,4": 5,
+      "4,5": 4,
+      "4,6": 4,
+      "4,7": 4,
+      "4,10": 3,
+      "4,11": 3,
+      "4,12": 3
+    },
+    "RowStyles": {
+      "0": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,3,4,2",
+    "1,8,4,2",
+    "1,13,4,2",
+    "2,0,2,3",
+    "2,5,2,3",
+    "2,10,2,3",
+    "0,0,1,3",
+    "0,3,1,4"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "linear-gradient(-45deg, Accent_1_-50 0.00%, Background_1 49.98%, Accent_5_0 100.00%)",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "519de79d-abaa-40ca-9fd6-45d1d4945734.png",
+      "Location": "0,60",
+      "Size": "300,4"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, Forguncy",
+    "ParentPageName": "积分挑战赛总览",
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
