@@ -107,5 +107,15 @@
   {
     "ModuleName": "积分挑战比赛记录",
     "ModuleType": 2
+  },
+  {
+    "ModuleName": "积分挑战比赛详情",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-12T19:04:23.2295817+08:00",
+    "ModuleType": 2
   }
 ]
