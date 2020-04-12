@@ -5,6 +5,9 @@
   "Cols": {
     "Count": 15
   },
+  "Values": {
+    "1,2": "%PageName%"
+  },
   "AttachInfos": {
     "4,0": {
       "IsPlaceHolderCell": true
@@ -13,26 +16,34 @@
   "StyleDatas": {
     "Styles": [
       {
-        "FontFamily": 0,
+        "HorizontalAlignment": 0
+      },
+      {
+        "FontFamily": 1,
         "FontSize": 10.666666666666666
       }
     ],
     "Types": {
       "Strs": [
+        "Center",
         "Body"
       ]
     },
+    "CellStyles": {
+      "1,2": 0
+    },
     "RowStyles": {
-      "25": 0,
-      "26": 0,
-      "27": 0
+      "25": 1,
+      "26": 1,
+      "27": 1
     },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 1
     }
   },
   "Spans": [
-    "4,0,21,15"
+    "4,0,21,15",
+    "1,2,2,11"
   ],
   "BackgroundPictures": [
     {
