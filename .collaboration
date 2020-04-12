@@ -106,7 +106,16 @@
   },
   {
     "ModuleName": "积分挑战比赛记录",
-    "ModuleType": 2
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-12T19:05:18.7790611+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\积分挑战比赛记录.json"
+    ]
   },
   {
     "ModuleName": "积分挑战比赛详情",
@@ -116,6 +125,16 @@
       "Email": "David.zhong@grapecity.com"
     },
     "LockDateTime": "2020-04-12T19:04:23.2295817+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "积分挑战赛记录",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-12T19:05:18.7790611+08:00",
     "ModuleType": 2
   }
 ]
