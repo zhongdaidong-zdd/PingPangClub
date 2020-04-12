@@ -127,11 +127,7 @@
   "StyleDatas": {
     "Styles": [
       {
-        "Formatter": 0,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "Formatter": 0
       }
     ],
     "Types": {
@@ -146,11 +142,7 @@
       "7,0": 0
     },
     "SheetStyle": {
-      "FontFamily": 1,
-      "BorderBottom": null,
-      "BorderTop": null,
-      "BorderLeft": null,
-      "BorderRight": null
+      "FontFamily": 1
     }
   },
   "Spans": [

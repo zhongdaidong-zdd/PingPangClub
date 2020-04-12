@@ -25,51 +25,31 @@
   "StyleDatas": {
     "Styles": [
       {
-        "BorderBottom": null,
         "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": null
+        "BorderLeft": 0
       },
       {
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": null,
-        "BorderRight": null
+        "BorderTop": 0
       },
       {
-        "BorderBottom": null,
         "BorderTop": 0,
-        "BorderLeft": null,
         "BorderRight": 0
       },
       {
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": 0,
-        "BorderRight": null
+        "BorderLeft": 0
       },
       {
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
         "BorderRight": 0
       },
       {
         "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": 0,
-        "BorderRight": null
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
       },
       {
         "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
         "BorderRight": 0
       }
     ],
@@ -147,11 +127,7 @@
       "19,13": 7
     },
     "SheetStyle": {
-      "FontFamily": 1,
-      "BorderBottom": null,
-      "BorderTop": null,
-      "BorderLeft": null,
-      "BorderRight": null
+      "FontFamily": 1
     }
   },
   "Spans": [

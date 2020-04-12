@@ -147,11 +147,7 @@
   "StyleDatas": {
     "Styles": [
       {
-        "Foreground": 0,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "Foreground": 0
       }
     ],
     "Types": {
@@ -164,11 +160,7 @@
       "2,54": 0
     },
     "SheetStyle": {
-      "FontFamily": 1,
-      "BorderBottom": null,
-      "BorderTop": null,
-      "BorderLeft": null,
-      "BorderRight": null
+      "FontFamily": 1
     }
   },
   "Spans": [
@@ -185,14 +177,14 @@
       "ForguncyPictureName": "PCMasterBackground",
       "Stretch": 2,
       "ForguncyPictureSourceType": 2,
-      "Name": "7a29f0b0-6236-4573-8ef7-6fb71783642b",
+      "Name": "727a4398-2932-40ee-8acf-1dcc2c6119f7",
       "Size": "200,210"
     },
     {
       "ForguncyPictureName": "PCMasterBanner",
       "Stretch": 3,
       "ForguncyPictureSourceType": 2,
-      "Name": "1b3a4cd1-48a0-445f-9945-620b8cd53413",
+      "Name": "a0212117-67a3-4093-9b4e-6e0ac4ef44ad",
       "Size": "1280,101"
     }
   ],

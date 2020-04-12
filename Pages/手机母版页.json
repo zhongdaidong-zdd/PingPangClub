@@ -14,11 +14,7 @@
     "Styles": [
       {
         "FontFamily": 0,
-        "FontSize": 10.666666666666666,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "FontSize": 10.666666666666666
       }
     ],
     "Types": {
@@ -32,11 +28,7 @@
       "27": 0
     },
     "SheetStyle": {
-      "FontFamily": 0,
-      "BorderBottom": null,
-      "BorderTop": null,
-      "BorderLeft": null,
-      "BorderRight": null
+      "FontFamily": 0
     }
   },
   "Spans": [
@@ -48,7 +40,7 @@
         "Fill": "Accent 1 0"
       },
       "IsAutomaticFill": false,
-      "Name": "737ebc1b-8b81-4d53-9f55-857c7f042f08",
+      "Name": "333d2326-923e-4341-99d0-b4a0f1bdcc00.png",
       "Size": "300,560"
     }
   ],
