@@ -9,7 +9,16 @@
   },
   {
     "ModuleName": "积分挑战赛总览",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-12T18:56:30.6775725+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\积分挑战赛总览.json"
+    ]
   },
   {
     "ModuleName": "首页",
