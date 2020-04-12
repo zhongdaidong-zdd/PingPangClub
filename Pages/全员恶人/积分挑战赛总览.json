@@ -137,7 +137,10 @@
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "MasterPageName": "手机母版页",
     "AuthorizeInfo": {
-      "VisitMode": 2
+      "VisitMode": 7,
+      "AllowVisitedRoles": [
+        "Administrator"
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
