@@ -1,0 +1,190 @@
+{
+  "Rows": {
+    "Count": 21
+  },
+  "Cols": {
+    "Count": 15
+  },
+  "Values": {
+    "6,2": "查无此人",
+    "9,2": "%CurrentUser.UserName%",
+    "11,2": "%CurrentUser.FullName%"
+  },
+  "Formulas": {
+    "7,2": "IF(ODATA(\"用户信息/$count?$filter=用户名 eq \"&IF(ISBLANK(用户名),\"null\",\"'\"&用户名&\"'\")&\" and 全名 eq \"&IF(ISBLANK(用户全名),\"null\",\"'\"&用户全名&\"'\"))>0,1,0)"
+  },
+  "AttachInfos": {
+    "7,2": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, Forguncy",
+        "Style": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "6,2": 0,
+      "6,3": 1,
+      "6,4": 1,
+      "6,5": 1,
+      "6,6": 1,
+      "6,7": 1,
+      "6,8": 1,
+      "6,9": 1,
+      "6,10": 1,
+      "6,11": 1,
+      "7,2": 1,
+      "7,3": 1,
+      "7,4": 1,
+      "7,5": 1,
+      "7,6": 1,
+      "7,7": 1,
+      "7,8": 1,
+      "7,9": 1,
+      "7,10": 1,
+      "7,11": 1,
+      "8,2": 1,
+      "8,3": 1,
+      "8,4": 1,
+      "8,5": 1,
+      "8,6": 1,
+      "8,7": 1,
+      "8,8": 1,
+      "8,9": 1,
+      "8,10": 1,
+      "8,11": 1,
+      "9,2": 1,
+      "9,3": 1,
+      "9,4": 1,
+      "9,5": 1,
+      "9,6": 1,
+      "9,7": 1,
+      "9,8": 1,
+      "9,9": 1,
+      "9,10": 1,
+      "9,11": 1,
+      "10,2": 1,
+      "10,3": 1,
+      "10,4": 1,
+      "10,5": 1,
+      "10,6": 1,
+      "10,7": 1,
+      "10,8": 1,
+      "10,9": 1,
+      "10,10": 1,
+      "10,11": 1,
+      "11,2": 1,
+      "11,3": 1,
+      "11,4": 1,
+      "11,5": 1,
+      "11,6": 1,
+      "11,7": 1,
+      "11,8": 1,
+      "11,9": 1,
+      "11,10": 1,
+      "11,11": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "6,2,1,6",
+    "7,2,1,6",
+    "9,2,1,10",
+    "11,2,1,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "MasterPageName": "手机母版页",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, Forguncy",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=临时跳转页!C8"
+                  }
+                ]
+              },
+              "value": "0",
+              "Id": "fcc929d4-c204-4118-a1a7-900ae77b3d58"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "新成员信息登记",
+                "PassValues": []
+              }
+            ],
+            "ID": "7588527e-a508-460d-9218-ac1d9c203795"
+          },
+          {
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "手机首页",
+                "PassValues": []
+              }
+            ],
+            "ID": "1ba98bc3-a609-4da0-8447-0341ced9b871"
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "用户名",
+      "Formula": "临时跳转页!$C$10"
+    },
+    {
+      "Name": "用户全名",
+      "Formula": "临时跳转页!$C$12"
+    }
+  ]
+}

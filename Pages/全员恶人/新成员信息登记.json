@@ -5,35 +5,29 @@
   "Cols": {
     "Count": 15
   },
+  "Values": {
+    "4,2": "%CurrentUser.UserName%",
+    "6,2": "%CurrentUser.FullName%",
+    "8,2": "%CurrentUser.Email%"
+  },
   "StyleDatas": {
-    "Styles": [
-      {
-        "Formatter": 0
-      }
-    ],
     "Types": {
       "Strs": [
-        "@",
         "Body"
       ]
     },
-    "CellStyles": {
-      "3,0": 0,
-      "5,0": 0,
-      "7,0": 0
-    },
     "SheetStyle": {
-      "FontFamily": 1
+      "FontFamily": 0
     }
   },
+  "Spans": [
+    "4,2,1,7"
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "MasterPageName": "手机母版页",
     "AuthorizeInfo": {
-      "VisitMode": 7,
-      "AllowVisitedRoles": [
-        "Administrator"
-      ]
+      "VisitMode": 2
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
