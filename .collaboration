@@ -177,13 +177,13 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "页面1",
+    "ModuleName": "新成员信息登记",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-04-13T19:37:11.0654718+08:00",
+    "LockDateTime": "2020-04-13T19:37:23.3581086+08:00",
     "ModuleType": 2
   }
 ]
