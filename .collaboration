@@ -121,25 +121,10 @@
   },
   {
     "ModuleName": "成员信息登记",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T19:46:16.1968626+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\手机端\\首页\\成员信息登记.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "Pages\\手机端\\成员信息",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T19:46:02.6840755+08:00",
     "ModuleType": 6
   }
 ]

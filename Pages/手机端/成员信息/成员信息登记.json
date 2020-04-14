@@ -218,13 +218,49 @@
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-            "TableName": "用户信息",
-            "UpdateType": "add",
-            "ShowConfirm": false,
-            "ConfirmText": "您确定添加这条记录?",
-            "UpdateValues": [],
-            "ParamNameToSaveNewRowValue": "NewRow"
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=成员信息登记!C16"
+                      }
+                    ]
+                  },
+                  "value": "确定",
+                  "Id": "c09d7b2e-9436-481f-9d95-5f9b32ee8baf"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "用户信息",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": [],
+                    "ParamNameToSaveNewRowValue": "NewRow"
+                  }
+                ],
+                "ID": "8631606a-f009-4c02-9c81-5cb4c9bb6ba0"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "用户信息",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": [],
+                    "ParamNameToSaveNewRowValue": "NewRow"
+                  }
+                ],
+                "ID": "db446a5f-880c-43fb-baeb-b12de7c0952d"
+              }
+            ]
           }
         ],
         "Text": "确定",
