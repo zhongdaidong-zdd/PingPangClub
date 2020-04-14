@@ -1,19 +1,55 @@
 [
   {
     "ModuleName": "Pages\\全员恶人",
-    "ModuleType": 6
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T19:10:05.732866+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": []
   },
   {
     "ModuleName": "手机首页",
-    "ModuleType": 2
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T19:10:05.732866+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\手机首页.json"
+    ]
   },
   {
     "ModuleName": "积分挑战赛总览",
-    "ModuleType": 2
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T19:10:05.732866+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\积分挑战赛总览.json",
+      "Pages\\3eefb796-4309-4c24-b062-719c9ae9a46b.json"
+    ]
   },
   {
     "ModuleName": "首页",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T19:10:05.7338632+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\首页.json",
+      "Pages\\81cc67b5-87e9-4c66-8bd3-ef2db3335121.json"
+    ]
   },
   {
     "ModuleName": "Pages\\内建手机页面",
@@ -97,18 +133,64 @@
   },
   {
     "ModuleName": "积分挑战比赛详情",
-    "ModuleType": 2
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T19:10:05.732866+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\积分挑战比赛详情.json"
+    ]
   },
   {
     "ModuleName": "积分挑战赛记录",
-    "ModuleType": 2
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T19:10:05.732866+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\积分挑战赛记录.json"
+    ]
   },
   {
     "ModuleName": "临时跳转页",
-    "ModuleType": 2
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T19:10:05.732866+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\临时跳转页.json"
+    ]
   },
   {
     "ModuleName": "新成员信息登记",
-    "ModuleType": 2
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T19:10:05.732866+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\新成员信息登记.json"
+    ]
+  },
+  {
+    "ModuleName": "Pages\\手机端",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T19:10:05.732866+08:00",
+    "ModuleType": 6
   }
 ]
