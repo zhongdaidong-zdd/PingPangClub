@@ -10,7 +10,7 @@
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-04-14T19:58:43.2628834+08:00",
+    "LockDateTime": "2020-04-14T20:07:06.3965285+08:00",
     "ModuleType": 2,
     "ToRemoveFiles": [
       "Pages\\手机端\\积分挑战赛\\积分挑战赛总览.json",
@@ -19,7 +19,17 @@
   },
   {
     "ModuleName": "首页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T20:07:06.3975261+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\电脑端\\首页.json",
+      "Pages\\81cc67b5-87e9-4c66-8bd3-ef2db3335121.json"
+    ]
   },
   {
     "ModuleName": "Pages\\内建手机页面",
@@ -72,7 +82,7 @@
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-04-14T19:56:04.1102738+08:00",
+    "LockDateTime": "2020-04-14T20:07:06.3965285+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "TableSet",
