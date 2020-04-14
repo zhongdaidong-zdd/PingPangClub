@@ -51,14 +51,14 @@
     "3,53": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "挑战方"
+        "ColumnName": "挑战方ID"
       },
       "NameUsedInJavaScript": "选手A"
     },
     "3,54": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "被挑战方"
+        "ColumnName": "被挑战方ID"
       },
       "NameUsedInJavaScript": "选手B"
     },
@@ -79,21 +79,21 @@
     "3,57": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "获胜选手"
+        "ColumnName": "比赛结果"
       },
       "NameUsedInJavaScript": "花落谁家"
     },
     "3,58": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "赛季"
+        "ColumnName": "赛季ID"
       },
       "NameUsedInJavaScript": "比赛类型ID"
     },
     "3,59": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "裁判"
+        "ColumnName": "裁判ID"
       },
       "NameUsedInJavaScript": "裁判"
     },

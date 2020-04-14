@@ -89,14 +89,15 @@
       },
       "BindingInfo": {
         "TableName": "用户信息",
-        "ColumnName": "中文名"
+        "ColumnName": "姓名"
       },
       "DataValidationInfo": {
         "FirstParamValue": "",
         "SecondParamValue": "",
         "InputMessageTitle": "",
         "InputMessage": "",
-        "ErrorMessage": ""
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "7,4": {
@@ -154,13 +155,13 @@
             "DisplayValue": "项目3"
           }
         ],
-        "DataSource": "部门信息",
+        "DataSource": "部门字典",
         "ValueColumnBindingInfo": {
-          "TableName": "部门信息",
+          "TableName": "部门字典",
           "ColumnName": "ID"
         },
         "DisplayColumnBindingInfo": {
-          "TableName": "部门信息",
+          "TableName": "部门字典",
           "ColumnName": "部门"
         },
         "UIPermissions": [
@@ -232,7 +233,7 @@
                     ]
                   },
                   "value": "确定",
-                  "Id": "c09d7b2e-9436-481f-9d95-5f9b32ee8baf"
+                  "Id": "7e1e83a5-1f53-4972-b3fb-edafa5b31260"
                 },
                 "CommandList": [
                   {

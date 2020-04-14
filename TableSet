@@ -44,15 +44,15 @@
           <Required>True</Required>
           <Unique>True</Unique>
         </Item>
-        <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>挑战方</Name>
+          <Name>挑战方ID</Name>
         </Item>
-        <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>被挑战方</Name>
+          <Name>被挑战方ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.DateTime</ColumnType>
@@ -67,21 +67,21 @@
         <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>获胜选手</Name>
+          <Name>比赛结果</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <Name>赛季</Name>
+          <Name>赛季ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>裁判</Name>
+          <Name>裁判ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
-          <Name>越级备注</Name>
+          <Name>越级备注ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
@@ -143,22 +143,22 @@
         <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>选手A</Name>
+          <Name>挑战方ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>选手B</Name>
+          <Name>被挑战方ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <Name>选手A得分</Name>
+          <Name>挑战方得分</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <Name>选手B得分</Name>
+          <Name>被挑战方得分</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
@@ -168,12 +168,7 @@
         <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>获胜选手</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>赛季</Name>
+          <Name>比赛结果</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
@@ -199,6 +194,88 @@
         </Item>
       </PrimaryKey>
       <Weight>1</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>字段1</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>积分挑战赛越级备注字典</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>2</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>赛季</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>积分挑战赛赛季字典</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>3</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
@@ -267,7 +344,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>2</Weight>
+      <Weight>4</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
@@ -308,7 +385,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>3</Weight>
+      <Weight>5</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
@@ -334,7 +411,7 @@
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>中文名</Name>
+          <Name>姓名</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
@@ -378,7 +455,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>4</Weight>
+      <Weight>6</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
@@ -413,13 +490,13 @@
           <Name>FGC_LastModifyDate</Name>
         </Item>
       </Columns>
-      <Name>部门信息</Name>
+      <Name>部门字典</Name>
       <PrimaryKey>
         <Item type="System.String">
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>5</Weight>
+      <Weight>7</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
@@ -427,6 +504,65 @@
           <AutoIncrement>True</AutoIncrement>
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>位次ID</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>四强排名</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>赛季ID</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>用户ID</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>字段1</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>位次信息</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>8</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
           <Required>True</Required>
@@ -454,13 +590,13 @@
           <Name>FGC_LastModifyDate</Name>
         </Item>
       </Columns>
-      <Name>位次信息</Name>
+      <Name>位次字典</Name>
       <PrimaryKey>
         <Item type="System.String">
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>6</Weight>
+      <Weight>9</Weight>
     </Item>
   </Tables>
 </TableSet>
