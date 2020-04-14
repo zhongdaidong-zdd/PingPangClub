@@ -82,7 +82,7 @@
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-04-14T20:07:06.3965285+08:00",
+    "LockDateTime": "2020-04-14T20:10:28.8651181+08:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "TableSet",
@@ -197,7 +197,16 @@
   },
   {
     "ModuleName": "成员信息登记",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T20:10:28.8661173+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\手机端\\成员信息\\成员信息登记.json"
+    ]
   },
   {
     "ModuleName": "Pages\\手机端\\成员信息",
