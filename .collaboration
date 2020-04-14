@@ -220,15 +220,5 @@
   {
     "ModuleName": "Pages\\手机端\\成员信息",
     "ModuleType": 6
-  },
-  {
-    "ModuleName": "位次",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T20:47:09.0022704+08:00",
-    "ModuleType": 2
   }
 ]
