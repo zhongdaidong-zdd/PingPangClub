@@ -1,7 +1,16 @@
 [
   {
     "ModuleName": "手机首页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T19:30:02.8917296+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\手机端\\首页\\手机首页.json"
+    ]
   },
   {
     "ModuleName": "积分挑战赛总览",
