@@ -105,7 +105,16 @@
   },
   {
     "ModuleName": "新成员信息登记",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T19:22:51.7222627+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\手机端\\首页\\新成员信息登记.json"
+    ]
   },
   {
     "ModuleName": "Pages\\手机端",
