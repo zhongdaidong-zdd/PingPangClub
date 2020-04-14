@@ -17,6 +17,7 @@
   },
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "MasterPageName": "手机母版页",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
