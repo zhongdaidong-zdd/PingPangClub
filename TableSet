@@ -29,7 +29,7 @@
               </Item>
               <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
                 <ComponentType>Number</ComponentType>
-                <Content type="System.Int32">
+                <Content type="System.Int64">
                   <Value>3</Value>
                 </Content>
               </Item>
@@ -206,7 +206,6 @@
           <AutoIncrement>True</AutoIncrement>
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
           <Required>True</Required>
@@ -229,7 +228,7 @@
               </Item>
               <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
                 <ComponentType>Number</ComponentType>
-                <Content type="System.Int32">
+                <Content type="System.Int64">
                   <Value>3</Value>
                 </Content>
               </Item>
@@ -276,7 +275,6 @@
           <AutoIncrement>True</AutoIncrement>
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
           <Required>True</Required>
@@ -318,7 +316,6 @@
           <AutoIncrement>True</AutoIncrement>
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
           <Required>True</Required>
@@ -336,26 +333,22 @@
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>中文名</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>邮箱</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>部门ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>电话</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>年龄</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
+          <ColumnType>System.Boolean</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>性别</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
@@ -389,11 +382,15 @@
           <AutoIncrement>True</AutoIncrement>
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
           <Required>True</Required>
           <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>部门</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
@@ -426,7 +423,6 @@
           <AutoIncrement>True</AutoIncrement>
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
           <Required>True</Required>
