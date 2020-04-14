@@ -105,7 +105,16 @@
   },
   {
     "ModuleName": "临时跳转页",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T18:26:11.7843336+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\全员恶人\\临时跳转页.json"
+    ]
   },
   {
     "ModuleName": "新成员信息登记",
