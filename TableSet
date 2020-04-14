@@ -351,6 +351,10 @@
           <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>性别</Name>
         </Item>
+        <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>头像</Name>
+        </Item>
         <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <Name>FGC_Creator</Name>

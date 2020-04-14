@@ -142,12 +142,12 @@
                 ]
               },
               "value": "0",
-              "Id": "d91467ba-9bae-4a5c-ab25-b2c80232dabb"
+              "Id": "c93bd4b8-6de4-4a95-a743-800cd9f8214b"
             },
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-                "PageName": "新成员信息登记",
+                "PageName": "成员信息登记",
                 "PassValues": []
               }
             ],

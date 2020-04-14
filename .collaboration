@@ -1,16 +1,7 @@
 [
   {
     "ModuleName": "手机首页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T19:30:02.8917296+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\手机端\\首页\\手机首页.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "积分挑战赛总览",
@@ -66,52 +57,7 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T19:24:42.2245627+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet",
-      "Upload\\042c8aa5-62da-4d9a-bc89-613a3ffe3690_CNC.jpg",
-      "Upload\\042c8aa5-62da-4d9a-bc89-613a3ffe3690_CNC.medium.jpg",
-      "Upload\\042c8aa5-62da-4d9a-bc89-613a3ffe3690_CNC.small.jpg",
-      "Upload\\11335675-a13e-4f64-a5a3-85f4ae88900b_screw.jpg",
-      "Upload\\11335675-a13e-4f64-a5a3-85f4ae88900b_screw.medium.jpg",
-      "Upload\\11335675-a13e-4f64-a5a3-85f4ae88900b_screw.small.jpg",
-      "Upload\\135500c7-c629-46e5-8790-130940543451_timgxx.jpg",
-      "Upload\\135500c7-c629-46e5-8790-130940543451_timgxx.medium.jpg",
-      "Upload\\135500c7-c629-46e5-8790-130940543451_timgxx.small.jpg",
-      "Upload\\40f0f431-d681-4a07-b797-ce81c6ecc1f6_miller.jpg",
-      "Upload\\40f0f431-d681-4a07-b797-ce81c6ecc1f6_miller.medium.jpg",
-      "Upload\\40f0f431-d681-4a07-b797-ce81c6ecc1f6_miller.small.jpg",
-      "Upload\\57e29b53-614c-4b3b-a1a9-efeb7ddd2662_b85.jpg",
-      "Upload\\57e29b53-614c-4b3b-a1a9-efeb7ddd2662_b85.medium.jpg",
-      "Upload\\57e29b53-614c-4b3b-a1a9-efeb7ddd2662_b85.small.jpg",
-      "Upload\\5c021f99-5744-4e64-91c3-98a0fd0e253a_RadialDrillingMachineRepair.doc",
-      "Upload\\7152fdac-c4f4-466f-ac7a-717d04acf704_driller.jpg",
-      "Upload\\7152fdac-c4f4-466f-ac7a-717d04acf704_driller.small.jpg",
-      "Upload\\7c82036c-f0e0-4595-96c1-b9f8835fe5ef_timgsss.jpg",
-      "Upload\\7c82036c-f0e0-4595-96c1-b9f8835fe5ef_timgsss.medium.jpg",
-      "Upload\\7c82036c-f0e0-4595-96c1-b9f8835fe5ef_timgsss.small.jpg",
-      "Upload\\9d083972-8f28-4d61-b536-3d31d31129bf_Z516RadialDrillingMachine.doc",
-      "Upload\\a6cb8c63-182c-43a7-85aa-318b4a4fc8ec_belt.jpg",
-      "Upload\\a6cb8c63-182c-43a7-85aa-318b4a4fc8ec_belt.small.jpg",
-      "Upload\\cb695b71-23a0-4aa0-be26-241e6bac53e6_television.jpg",
-      "Upload\\cb695b71-23a0-4aa0-be26-241e6bac53e6_television.medium.jpg",
-      "Upload\\cb695b71-23a0-4aa0-be26-241e6bac53e6_television.small.jpg",
-      "Upload\\ccf7bb73-6205-4877-ad2c-01cadea740da_waterpumpshaft.jpg",
-      "Upload\\ccf7bb73-6205-4877-ad2c-01cadea740da_waterpumpshaft.medium.jpg",
-      "Upload\\ccf7bb73-6205-4877-ad2c-01cadea740da_waterpumpshaft.small.jpg",
-      "Upload\\da5ced36-a692-496a-a155-7ba78172d12a_BasicCNCOperation.pdf",
-      "Upload\\e4f81955-14ad-411a-805f-2f397d435e9e_BasicCNCTutorial.doc",
-      "Upload\\f668656a-2fce-4001-a963-b24ce2f63e56_screwrod.png",
-      "Upload\\f668656a-2fce-4001-a963-b24ce2f63e56_screwrod.small.png"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
@@ -119,19 +65,7 @@
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T19:40:52.7146075+08:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
@@ -167,29 +101,7 @@
   },
   {
     "ModuleName": "临时跳转页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T19:34:05.4990368+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\手机端\\首页\\临时跳转页.json"
-    ]
-  },
-  {
-    "ModuleName": "新成员信息登记",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T19:34:05.4990368+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\手机端\\首页\\新成员信息登记.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "Pages\\手机端",
@@ -209,12 +121,6 @@
   },
   {
     "ModuleName": "成员信息登记",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T19:40:52.7146075+08:00",
     "ModuleType": 2
   }
 ]
