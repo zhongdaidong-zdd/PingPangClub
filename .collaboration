@@ -181,5 +181,15 @@
   {
     "ModuleName": "位次信息导入",
     "ModuleType": 2
+  },
+  {
+    "ModuleName": "手动导入位次信息",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-15T19:23:08.0726212+08:00",
+    "ModuleType": 1
   }
 ]
