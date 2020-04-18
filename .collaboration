@@ -167,5 +167,15 @@
     },
     "LockDateTime": "2020-04-18T16:47:43.8186024+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "位次信息详情页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-18T16:51:14.8549219+08:00",
+    "ModuleType": 1
   }
 ]
