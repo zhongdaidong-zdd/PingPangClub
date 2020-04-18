@@ -181,11 +181,12 @@
       "Size": "200,210"
     },
     {
-      "ForguncyPictureName": "PCMasterBanner",
-      "Stretch": 3,
-      "ForguncyPictureSourceType": 2,
-      "Name": "a0212117-67a3-4093-9b4e-6e0ac4ef44ad",
-      "Size": "1280,101"
+      "StyleInfo": {
+        "Fill": "Accent 2 40"
+      },
+      "IsAutomaticFill": false,
+      "Name": "0b4ac2b1-711c-4e29-b1f0-f64f0bc2868e.png",
+      "Size": "1280,100"
     }
   ],
   "PageInfo": {

@@ -1,0 +1,692 @@
+{
+  "Rows": {
+    "Sizes": {
+      "2": 25.0,
+      "4": 25.0,
+      "6": 25.0,
+      "8": 25.0,
+      "12": 25.0,
+      "13": 30.0
+    },
+    "InLogicalVisibleIndexes": [
+      16
+    ],
+    "Count": 17
+  },
+  "Cols": {
+    "Count": 31
+  },
+  "Values": {
+    "2,7": "赛季",
+    "4,7": "姓名",
+    "6,7": "位次",
+    "8,7": "备注",
+    "13,7": "保存并添加下一条",
+    "13,16": "保存"
+  },
+  "Formulas": {
+    "16,7": "ODATA(\"位次初始分字典?$select=初始分&$filter=位次ID eq \"&IF(ISBLANK(L7),\"null\",\"'\"&L7&\"'\")&\" and 四强名次ID eq \"&IF(ISBLANK(U7),\"null\",\"'\"&U7&\"'\"))"
+  },
+  "AttachInfos": {
+    "2,11": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "ShowDropdownButtonWhenGetFocus": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "DataSource": "积分挑战赛赛季字典",
+        "ValueColumnBindingInfo": {
+          "TableName": "积分挑战赛赛季字典",
+          "ColumnName": "ID"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "积分挑战赛赛季字典",
+          "ColumnName": "赛季"
+        },
+        "ReadOnly": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "积分挑战赛位次信息",
+        "ColumnName": "赛季ID"
+      }
+    },
+    "4,11": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "SelectOnly": false,
+        "ValidateItem": true,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "DataSource": "用户信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "用户信息",
+          "ColumnName": "ID"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "用户信息",
+          "ColumnName": "姓名"
+        },
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "积分挑战赛位次信息",
+        "ColumnName": "用户ID"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": ""
+      }
+    },
+    "6,11": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "DataSource": "位次字典",
+        "ValueColumnBindingInfo": {
+          "TableName": "位次字典",
+          "ColumnName": "ID"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "位次字典",
+          "ColumnName": "位次"
+        },
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=编辑位次信息!L7"
+                      }
+                    ]
+                  },
+                  "value": "1",
+                  "Id": "a23e3196-c774-4c13-8f66-03f228211a43"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "=编辑位次信息!U7"
+                        },
+                        "PropertyType": 1,
+                        "Value": true
+                      }
+                    ]
+                  }
+                ],
+                "ID": "9295d9a3-1206-4425-9043-c5818fe6bd49"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "=编辑位次信息!U7"
+                        },
+                        "PropertyType": 1,
+                        "Value": false
+                      },
+                      {
+                        "Cell": {
+                          "SerializeProperty": "=编辑位次信息!U7"
+                        },
+                        "Value": "%Null%"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "a3b67d94-c486-4ff9-b42d-636cc71c6808"
+              }
+            ]
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "积分挑战赛位次信息",
+        "ColumnName": "位次ID"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": ""
+      }
+    },
+    "6,20": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "Items": [
+          {
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
+          }
+        ],
+        "DataSource": "四强名次字典",
+        "ValueColumnBindingInfo": {
+          "TableName": "四强名次字典",
+          "ColumnName": "ID"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "四强名次字典",
+          "ColumnName": "四强名次"
+        },
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "积分挑战赛位次信息",
+        "ColumnName": "四强名次ID"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": ""
+      }
+    },
+    "8,11": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "积分挑战赛位次信息",
+        "ColumnName": "备注"
+      }
+    },
+    "13,7": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+            "TableName": "积分挑战赛位次信息",
+            "UpdateType": "add",
+            "ShowConfirm": false,
+            "ConfirmText": "您确定添加这条记录?",
+            "UpdateValues": [],
+            "ParamNameToSaveNewRowValue": "NewRow"
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+            "PropertyItemsList": [
+              {
+                "Cell": {
+                  "SerializeProperty": "=编辑位次信息!L5"
+                },
+                "Value": "%Null%"
+              },
+              {
+                "Cell": {
+                  "SerializeProperty": "=编辑位次信息!U7"
+                },
+                "Value": "%Null%"
+              },
+              {
+                "Cell": {
+                  "SerializeProperty": "=编辑位次信息!L9"
+                },
+                "Value": "%Null%"
+              }
+            ]
+          }
+        ],
+        "Text": "保存并添加下一条",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "13,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=编辑位次信息!Q14"
+                      }
+                    ]
+                  },
+                  "value": "编辑",
+                  "Id": "301fdfad-ff93-4bd0-a85b-29736f6c0c32"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "积分挑战赛位次信息",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": [],
+                    "ParamNameToSaveNewRowValue": "NewRow"
+                  }
+                ],
+                "ID": "b4c92044-5cfd-4b89-a678-4d5db4abd31c"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "积分挑战赛位次信息",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": [],
+                    "ParamNameToSaveNewRowValue": "NewRow"
+                  }
+                ],
+                "ID": "3be6fd81-136b-41ae-b689-306889b5b87d"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, Forguncy",
+            "ReloadData": true
+          }
+        ],
+        "Text": "保存",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "16,7": {
+      "BindingInfo": {
+        "TableName": "积分挑战赛位次信息",
+        "ColumnName": "初始分"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "@",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "2,7": 0,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,24": 1,
+      "3,7": 1,
+      "3,8": 1,
+      "3,9": 1,
+      "3,10": 1,
+      "3,11": 1,
+      "3,12": 1,
+      "3,13": 1,
+      "3,14": 1,
+      "3,15": 1,
+      "3,16": 1,
+      "3,17": 1,
+      "3,18": 1,
+      "3,19": 1,
+      "3,20": 1,
+      "3,21": 1,
+      "3,22": 1,
+      "3,23": 1,
+      "3,24": 1,
+      "4,7": 0,
+      "4,8": 1,
+      "4,9": 1,
+      "4,10": 1,
+      "4,11": 1,
+      "4,24": 1,
+      "5,7": 1,
+      "5,8": 1,
+      "5,9": 1,
+      "5,10": 1,
+      "5,11": 1,
+      "5,12": 1,
+      "5,13": 1,
+      "5,14": 1,
+      "5,15": 1,
+      "5,16": 1,
+      "5,17": 1,
+      "5,18": 1,
+      "5,19": 1,
+      "5,20": 1,
+      "5,21": 1,
+      "5,22": 1,
+      "5,23": 1,
+      "5,24": 1,
+      "6,7": 1,
+      "6,8": 1,
+      "6,9": 1,
+      "6,10": 1,
+      "6,11": 1,
+      "6,19": 1,
+      "6,20": 1,
+      "6,24": 1,
+      "7,7": 1,
+      "7,8": 1,
+      "7,9": 1,
+      "7,10": 1,
+      "7,11": 1,
+      "7,12": 1,
+      "7,13": 1,
+      "7,14": 1,
+      "7,15": 1,
+      "7,16": 1,
+      "7,17": 1,
+      "7,18": 1,
+      "7,19": 1,
+      "7,20": 1,
+      "7,21": 1,
+      "7,22": 1,
+      "7,23": 1,
+      "7,24": 1,
+      "8,7": 0,
+      "8,8": 1,
+      "8,9": 1,
+      "8,10": 1,
+      "8,11": 2,
+      "8,24": 1,
+      "9,7": 1,
+      "9,8": 1,
+      "9,9": 1,
+      "9,10": 1,
+      "9,24": 1,
+      "10,7": 1,
+      "10,8": 1,
+      "10,9": 1,
+      "10,10": 1,
+      "10,24": 1,
+      "11,7": 1,
+      "11,8": 1,
+      "11,9": 1,
+      "11,10": 1,
+      "11,24": 1,
+      "13,7": 1,
+      "13,8": 1,
+      "13,9": 1,
+      "13,10": 1,
+      "13,11": 1,
+      "13,12": 1,
+      "13,13": 1,
+      "13,14": 1,
+      "13,16": 1,
+      "13,17": 1,
+      "13,18": 1,
+      "13,19": 1,
+      "13,20": 1,
+      "13,21": 1,
+      "13,22": 1,
+      "13,23": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,7,1,4",
+    "6,7,1,4",
+    "2,7,1,4",
+    "8,7,1,4",
+    "8,11,4,13",
+    "13,16,1,8",
+    "13,7,1,8",
+    "16,7,1,7",
+    "2,11,1,13",
+    "4,11,1,13",
+    "6,11,1,8",
+    "6,20,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+        "PropertyItemsList": [
+          {
+            "Cell": {
+              "SerializeProperty": "=编辑位次信息!U7"
+            },
+            "PropertyType": 1,
+            "Value": false
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, Forguncy",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=编辑位次信息!Q14"
+                  }
+                ]
+              },
+              "value": "编辑",
+              "Id": "94195204-b99b-4d12-906d-8e143d6d9cd1"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                "PropertyItemsList": [
+                  {
+                    "Cell": {
+                      "SerializeProperty": "=编辑位次信息!H14"
+                    },
+                    "PropertyType": 1,
+                    "Value": false
+                  }
+                ]
+              }
+            ],
+            "ID": "9f8c91be-914b-421e-89f4-8c30050538ac"
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "积分挑战赛位次信息"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "初始分",
+      "Formula": "编辑位次信息!$H$17"
+    }
+  ]
+}
