@@ -77,16 +77,25 @@
   },
   {
     "ModuleName": "临时跳转页",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "手机首页",
     "State": 1,
     "LockedBy": {
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-04-25T18:30:34.2280422+08:00",
+    "LockDateTime": "2020-04-25T19:27:30.7150996+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\手机端\\首页\\临时跳转页.json"
+    ]
+  },
+  {
+    "ModuleName": "手机首页",
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-25T19:27:30.7150996+08:00",
     "ModuleType": 2,
     "ToRemoveFiles": [
       "Pages\\手机端\\首页\\手机首页.json"
@@ -123,7 +132,7 @@
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-04-25T18:31:58.7679445+08:00",
+    "LockDateTime": "2020-04-25T19:27:30.7150996+08:00",
     "ModuleType": 4,
     "ToRemoveFiles": [
       "Pages\\手机母版页.json"
@@ -188,6 +197,16 @@
       "Email": "David.zhong@grapecity.com"
     },
     "LockDateTime": "2020-04-25T18:59:28.1990849+08:00",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "葡萄城乒乓球俱乐部",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-25T19:27:30.7150996+08:00",
     "ModuleType": 2
   }
 ]
