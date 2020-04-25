@@ -77,29 +77,7 @@
   },
   {
     "ModuleName": "临时跳转页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-25T19:27:30.7150996+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\手机端\\首页\\临时跳转页.json"
-    ]
-  },
-  {
-    "ModuleName": "手机首页",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-25T19:27:30.7150996+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\手机端\\首页\\手机首页.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "Pages\\电脑端",
@@ -127,16 +105,7 @@
   },
   {
     "ModuleName": "手机母版页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-25T19:27:30.7150996+08:00",
-    "ModuleType": 4,
-    "ToRemoveFiles": [
-      "Pages\\手机母版页.json"
-    ]
+    "ModuleType": 4
   },
   {
     "ModuleName": "母版页",
@@ -156,18 +125,7 @@
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-25T19:21:22.4369614+08:00",
-    "ModuleType": 10,
-    "ToRemoveFiles": [
-      "image\\fgc_logo_dark.png",
-      "image\\fgc_logo_light.png",
-      "image\\[5620]EMIRIA-59911790.jpg"
-    ]
+    "ModuleType": 10
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
@@ -191,22 +149,10 @@
   },
   {
     "ModuleName": "施工中",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-25T18:59:28.1990849+08:00",
     "ModuleType": 2
   },
   {
     "ModuleName": "葡萄城乒乓球俱乐部",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-25T19:27:30.7150996+08:00",
     "ModuleType": 2
   }
 ]

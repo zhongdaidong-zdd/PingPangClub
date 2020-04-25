@@ -157,7 +157,7 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-                "PageName": "手机首页",
+                "PageName": "葡萄城乒乓球俱乐部",
                 "PassValues": []
               }
             ],

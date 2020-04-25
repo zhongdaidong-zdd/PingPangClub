@@ -6,10 +6,9 @@
     "Count": 15
   },
   "AttachInfos": {
-    "1,11": {
+    "0,0": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
-        "TemplateKey": "_RS_Normal_Style2",
+        "$type": "Forguncy.ImageCellType, Forguncy",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -23,42 +22,29 @@
               "FGC_Anonymous"
             ]
           }
-        ]
+        ],
+        "ImagePath": "doing.gif"
       }
     }
   },
   "StyleDatas": {
-    "Styles": [
-      {
-        "Formatter": 0
-      }
-    ],
     "Types": {
       "Strs": [
-        "@",
         "Body"
       ]
     },
-    "CellStyles": {
-      "3,0": 0,
-      "5,0": 0,
-      "7,0": 0
-    },
     "SheetStyle": {
-      "FontFamily": 1
+      "FontFamily": 0
     }
   },
   "Spans": [
-    "1,11,1,4"
+    "0,0,21,15"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "MasterPageName": "手机母版页",
     "AuthorizeInfo": {
-      "VisitMode": 7,
-      "AllowVisitedRoles": [
-        "Administrator"
-      ]
+      "VisitMode": 2
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
