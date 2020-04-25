@@ -1,2 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ShareCommand />
+<ShareCommand>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.SetCellPropertyCommand" assembly="Forguncy">
+        <PropertyItemsList>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="Forguncy">
+            <Cell>
+              <ParamReferObject>
+                <ParamID>5baa49be-b921-4801-bd76-0279f7fe3c9b</ParamID>
+                <ShareCommandContainerReferObject>
+                  <ShareCommandContainerID>018348d6-7e7e-4e20-a72d-a0daa19c962d</ShareCommandContainerID>
+                </ShareCommandContainerReferObject>
+              </ParamReferObject>
+              <SerializeProperty />
+            </Cell>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <ParamReferObject>
+                <ParamID>9cbc2c18-7e67-47b8-9090-4b034dbb8bb4</ParamID>
+                <ShareCommandContainerReferObject>
+                  <ShareCommandContainerID>018348d6-7e7e-4e20-a72d-a0daa19c962d</ShareCommandContainerID>
+                </ShareCommandContainerReferObject>
+              </ParamReferObject>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="Forguncy">
+            <Cell>
+              <ParamReferObject>
+                <ParamID>9cbc2c18-7e67-47b8-9090-4b034dbb8bb4</ParamID>
+                <ShareCommandContainerReferObject>
+                  <ShareCommandContainerID>018348d6-7e7e-4e20-a72d-a0daa19c962d</ShareCommandContainerID>
+                </ShareCommandContainerReferObject>
+              </ParamReferObject>
+              <SerializeProperty />
+            </Cell>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <ParamReferObject>
+                <ParamID>fe2748c2-3c2a-4897-bc96-eb357e5a1d23</ParamID>
+                <ShareCommandContainerReferObject>
+                  <ShareCommandContainerID>018348d6-7e7e-4e20-a72d-a0daa19c962d</ShareCommandContainerID>
+                </ShareCommandContainerReferObject>
+              </ParamReferObject>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="Forguncy">
+            <Cell>
+              <ParamReferObject>
+                <ParamID>fe2748c2-3c2a-4897-bc96-eb357e5a1d23</ParamID>
+                <ShareCommandContainerReferObject>
+                  <ShareCommandContainerID>018348d6-7e7e-4e20-a72d-a0daa19c962d</ShareCommandContainerID>
+                </ShareCommandContainerReferObject>
+              </ParamReferObject>
+              <SerializeProperty />
+            </Cell>
+            <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
+              <ParamReferObject>
+                <ParamID>5baa49be-b921-4801-bd76-0279f7fe3c9b</ParamID>
+                <ShareCommandContainerReferObject>
+                  <ShareCommandContainerID>018348d6-7e7e-4e20-a72d-a0daa19c962d</ShareCommandContainerID>
+                </ShareCommandContainerReferObject>
+              </ParamReferObject>
+            </Value>
+          </Item>
+        </PropertyItemsList>
+      </Item>
+    </Commands>
+    <ID>018348d6-7e7e-4e20-a72d-a0daa19c962d</ID>
+    <Name>交换单元格的值</Name>
+    <Params>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="Forguncy">
+        <ID>9cbc2c18-7e67-47b8-9090-4b034dbb8bb4</ID>
+        <Name>参数1</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="Forguncy">
+        <ID>fe2748c2-3c2a-4897-bc96-eb357e5a1d23</ID>
+        <Name>参数2</Name>
+      </Item>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="Forguncy">
+        <ID>5baa49be-b921-4801-bd76-0279f7fe3c9b</ID>
+        <Name>Temp</Name>
+      </Item>
+    </Params>
+  </Item>
+</ShareCommand>

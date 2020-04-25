@@ -79,7 +79,7 @@
     "3,57": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "比赛结果"
+        "ColumnName": "胜者ID"
       },
       "NameUsedInJavaScript": "花落谁家"
     },

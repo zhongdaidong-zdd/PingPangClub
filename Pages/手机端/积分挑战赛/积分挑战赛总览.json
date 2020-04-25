@@ -17,26 +17,33 @@
     "Count": 15
   },
   "Values": {
-    "1,0": "积分榜No.1:",
-    "2,0": "总场次：",
-    "2,7": "总积分：",
-    "3,0": "热度榜No.1:",
-    "4,0": "最近场次：",
-    "4,7": "总积分："
+    "0,0": "赛季：",
+    "0,8": "时间：",
+    "2,0": "添加比赛记录"
   },
   "Formulas": {
+    "0,10": "TODAY()",
     "26,0": "ODATA(\"积分挑战赛赛季?$select=ID&$top=1&$orderby=创建日期 desc\")"
   },
   "AttachInfos": {
-    "1,5": {
+    "0,2": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
-        "SavedValidators": [
+        "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "Value": "项目1",
+            "DisplayValue": "项目1"
+          },
+          {
+            "Value": "项目2",
+            "DisplayValue": "项目2"
+          },
+          {
+            "Value": "项目3",
+            "DisplayValue": "项目3"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -53,15 +60,18 @@
         ]
       }
     },
-    "3,5": {
+    "2,0": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
-        "SavedValidators": [
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "PageName": "积分挑战赛记录",
+            "PassValues": []
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Text": "添加比赛记录",
+        "TemplateKey": "_RS_Normal_Style2",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -108,109 +118,130 @@
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "比赛ID"
-      }
+      },
+      "NameUsedInJavaScript": "比赛ID"
     },
     "22,1": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "挑战方ID"
-      }
+      },
+      "NameUsedInJavaScript": "挑战方ID"
     },
     "22,2": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "被挑战方ID"
-      }
+      },
+      "NameUsedInJavaScript": "被挑战方ID"
     },
     "22,3": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "比赛日期"
-      }
+      },
+      "NameUsedInJavaScript": "比赛日期"
     },
     "22,4": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "大比分"
-      }
+      },
+      "NameUsedInJavaScript": "大比分"
     },
     "22,5": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
-        "ColumnName": "比赛结果"
-      }
+        "ColumnName": "胜者ID"
+      },
+      "NameUsedInJavaScript": "比赛结果"
     },
     "22,6": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "赛季ID"
-      }
+      },
+      "NameUsedInJavaScript": "赛季ID"
     },
     "22,7": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "裁判ID"
-      }
+      },
+      "NameUsedInJavaScript": "裁判ID"
     },
     "22,8": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "越级备注ID"
-      }
+      },
+      "NameUsedInJavaScript": "越级备注ID"
     },
     "22,9": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "挑战方加分"
-      }
+      },
+      "NameUsedInJavaScript": "挑战方加分"
     },
     "22,10": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "被挑战方加分"
-      }
+      },
+      "NameUsedInJavaScript": "被挑战方加分"
     },
     "22,11": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "挑战方奖励分"
-      }
+      },
+      "NameUsedInJavaScript": "挑战方奖励分"
     },
     "22,12": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
         "ColumnName": "被挑战方奖励分"
-      }
+      },
+      "NameUsedInJavaScript": "被挑战方奖励分"
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "Formatter": 0
+        "FontFamily": 0,
+        "Formatter": 1
       },
       {
-        "HorizontalAlignment": 1
+        "FontFamily": 0
       },
       {
-        "HorizontalAlignment": 1,
+        "FontFamily": 0,
+        "Formatter": 2
+      },
+      {
+        "HorizontalAlignment": 3
+      },
+      {
+        "HorizontalAlignment": 3,
         "BorderTop": 0,
         "BorderLeft": 0
       },
       {
-        "HorizontalAlignment": 1,
+        "HorizontalAlignment": 3,
         "BorderTop": 0
       },
       {
-        "HorizontalAlignment": 1,
+        "HorizontalAlignment": 3,
         "BorderTop": 0,
         "BorderRight": 0
       },
       {
-        "HorizontalAlignment": 1,
+        "HorizontalAlignment": 3,
         "BorderLeft": 0
       },
       {
-        "HorizontalAlignment": 1,
+        "HorizontalAlignment": 3,
         "BorderRight": 0
       },
       {
@@ -229,98 +260,110 @@
       {
         "BorderBottom": 0,
         "BorderRight": 0
-      },
-      {
-        "FontFamily": 3
       }
     ],
     "Types": {
       "Strs": [
-        "@",
+        "Body",
+        "[AUTO]General",
+        "yyyy\"年\"m\"月\"d\"日\";@",
         "Center",
-        "DarkGray",
-        "Body"
+        "DarkGray"
       ],
       "Borders": [
         {
-          "Color": 2
+          "Color": 4
         }
       ]
     },
     "CellStyles": {
-      "1,5": 0,
-      "3,5": 0,
-      "5,0": 1,
-      "21,0": 2,
-      "21,1": 3,
-      "21,2": 3,
-      "21,3": 3,
-      "21,4": 3,
-      "21,5": 3,
-      "21,6": 3,
-      "21,7": 3,
-      "21,8": 3,
-      "21,9": 3,
-      "21,10": 3,
-      "21,11": 3,
-      "21,12": 3,
-      "21,13": 3,
-      "21,14": 4,
-      "22,0": 5,
-      "22,1": 1,
-      "22,2": 1,
-      "22,3": 1,
-      "22,4": 1,
-      "22,5": 1,
-      "22,6": 1,
-      "22,7": 1,
-      "22,8": 1,
-      "22,9": 1,
-      "22,10": 1,
-      "22,11": 1,
-      "22,12": 1,
-      "22,13": 1,
-      "22,14": 6,
-      "23,0": 7,
-      "23,14": 8,
-      "24,0": 9,
-      "24,1": 10,
-      "24,2": 10,
-      "24,3": 10,
-      "24,4": 10,
-      "24,5": 10,
-      "24,6": 10,
-      "24,7": 10,
-      "24,8": 10,
-      "24,9": 10,
-      "24,10": 10,
-      "24,11": 10,
-      "24,12": 10,
-      "24,13": 10,
-      "24,14": 11,
-      "26,0": 12
+      "0,0": 0,
+      "0,2": 1,
+      "0,7": 1,
+      "0,8": 0,
+      "0,9": 1,
+      "0,10": 2,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "5,0": 3,
+      "21,0": 4,
+      "21,1": 5,
+      "21,2": 5,
+      "21,3": 5,
+      "21,4": 5,
+      "21,5": 5,
+      "21,6": 5,
+      "21,7": 5,
+      "21,8": 5,
+      "21,9": 5,
+      "21,10": 5,
+      "21,11": 5,
+      "21,12": 5,
+      "21,13": 5,
+      "21,14": 6,
+      "22,0": 7,
+      "22,1": 3,
+      "22,2": 3,
+      "22,3": 3,
+      "22,4": 3,
+      "22,5": 3,
+      "22,6": 3,
+      "22,7": 3,
+      "22,8": 3,
+      "22,9": 3,
+      "22,10": 3,
+      "22,11": 3,
+      "22,12": 3,
+      "22,13": 3,
+      "22,14": 8,
+      "23,0": 9,
+      "23,14": 10,
+      "24,0": 11,
+      "24,1": 12,
+      "24,2": 12,
+      "24,3": 12,
+      "24,4": 12,
+      "24,5": 12,
+      "24,6": 12,
+      "24,7": 12,
+      "24,8": 12,
+      "24,9": 12,
+      "24,10": 12,
+      "24,11": 12,
+      "24,12": 12,
+      "24,13": 12,
+      "24,14": 13,
+      "26,0": 1
     },
     "SheetStyle": {
-      "FontFamily": 3
+      "FontFamily": 0
     }
   },
   "Spans": [
-    "1,0,1,5",
-    "3,0,1,5",
-    "1,5,1,5",
-    "3,5,1,5",
-    "4,0,1,4",
-    "4,4,1,3",
-    "4,7,1,3",
     "5,0,16,15",
+    "26,0,1,6",
     "23,0,2,15",
-    "26,0,1,6"
+    "2,0,1,9",
+    "0,0,1,2",
+    "0,2,1,5",
+    "0,8,1,2",
+    "0,10,1,5"
   ],
   "BackgroundPictures": [
     {
       "StyleInfo": {
         "Fill": "Accent 3 60",
-        "StrokeDashType": 8,
         "Stroke": "black",
         "StrokeThickness": 0.0
       },

@@ -82,6 +82,7 @@
             <ReusingMode>Never</ReusingMode>
           </AutoGenreatedIDSetting>
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <IsAutoGenreatedIDSettingEnable>True</IsAutoGenreatedIDSettingEnable>
           <Name>比赛ID</Name>
           <Required>True</Required>
@@ -89,12 +90,12 @@
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
-          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
           <Name>挑战方ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
-          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
           <Name>被挑战方ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
@@ -103,18 +104,25 @@
           <Name>比赛日期</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <Name>挑战方得分</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <Name>被挑战方得分</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>大比分</Name>
         </Item>
-        <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>比赛结果</Name>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <Name>胜者ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
-          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>赛季ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
@@ -124,22 +132,27 @@
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
           <Name>越级备注ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>挑战方加分</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>被挑战方加分</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>挑战方奖励分</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>被挑战方奖励分</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">

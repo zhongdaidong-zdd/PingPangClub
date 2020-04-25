@@ -13,16 +13,21 @@
   "Values": {
     "0,0": "比赛时间：",
     "0,8": "胜者：李胜男",
-    "1,8": "3：1",
-    "2,0": "2019/02/03",
-    "2,5": "钟代冬",
-    "2,10": "李胜男"
+    "1,5": "3：1",
+    "2,2": "钟代冬",
+    "2,8": "李胜男"
   },
   "DateValues": {
     "0,3": "2019-02-08T00:00:00"
   },
   "AttachInfos": {
-    "1,3": {
+    "0,3": {
+      "TemplateCellSource": "比赛日期"
+    },
+    "0,10": {
+      "TemplateCellSource": "比赛结果"
+    },
+    "1,0": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
         "UIPermissions": [
@@ -41,7 +46,7 @@
         ]
       }
     },
-    "1,13": {
+    "1,11": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
         "UIPermissions": [
@@ -58,51 +63,25 @@
             ]
           }
         ]
-      }
-    },
-    "2,0": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
-          }
-        ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
-        "CellDefaultValue": "2019/02/03"
       }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "FontSize": 10.666666666666666
+        "FontSize": 12.0
       },
       {
-        "FontSize": 10.666666666666666,
+        "FontSize": 12.0,
         "Formatter": 0
       },
       {
-        "FontFamily": 1,
-        "FontSize": 10.666666666666666,
-        "Formatter": 2
+        "FontSize": 10.666666666666666
       },
       {
-        "FontSize": 12.0
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "Formatter": 2
       },
       {
         "FontFamily": 1,
@@ -112,15 +91,6 @@
         "FontFamily": 1
       },
       {
-        "FontFamily": 1,
-        "FontSize": 12.0,
-        "Formatter": 2
-      },
-      {
-        "FontSize": 12.0,
-        "Formatter": 3
-      },
-      {
         "FontSize": 13.333333333333332
       }
     ],
@@ -128,76 +98,114 @@
       "Strs": [
         "[AUTO]yyyy/M/d",
         "Body",
-        "[AUTO]General",
-        "@"
+        "[AUTO]General"
       ]
     },
     "CellStyles": {
       "0,0": 0,
       "0,3": 1,
-      "0,7": 0,
-      "0,8": 2,
-      "0,9": 0,
-      "0,10": 0,
-      "0,11": 0,
-      "0,12": 0,
-      "1,0": 3,
-      "1,1": 3,
-      "1,2": 3,
+      "0,7": 2,
+      "0,8": 3,
+      "0,9": 2,
+      "0,10": 2,
+      "0,11": 2,
+      "0,12": 2,
+      "1,0": 4,
+      "1,1": 5,
+      "1,2": 4,
       "1,3": 4,
-      "1,4": 5,
-      "1,5": 4,
-      "1,6": 4,
-      "1,7": 4,
-      "1,8": 6,
-      "1,10": 3,
-      "1,11": 3,
-      "1,12": 3,
-      "2,0": 7,
+      "1,4": 4,
+      "1,5": 3,
+      "1,6": 5,
+      "1,8": 4,
+      "1,9": 4,
+      "1,10": 4,
+      "1,11": 5,
+      "1,12": 5,
+      "2,0": 5,
+      "2,1": 5,
+      "2,2": 3,
       "2,3": 5,
       "2,4": 5,
-      "2,5": 6,
+      "2,5": 5,
       "2,6": 5,
-      "2,7": 5,
-      "2,10": 3,
+      "2,8": 4,
+      "2,9": 5,
+      "2,10": 5,
+      "2,11": 5,
+      "2,12": 5,
+      "3,0": 5,
+      "3,1": 5,
+      "3,2": 5,
       "3,3": 5,
       "3,4": 5,
-      "3,5": 5,
-      "3,6": 5,
-      "3,7": 5,
-      "4,0": 3,
-      "4,1": 3,
-      "4,2": 3,
-      "4,3": 5,
-      "4,4": 5,
-      "4,5": 4,
-      "4,6": 4,
-      "4,7": 4,
-      "4,10": 3,
-      "4,11": 3,
-      "4,12": 3
+      "3,8": 5,
+      "3,9": 5,
+      "3,10": 5,
+      "3,11": 5,
+      "3,12": 5,
+      "4,0": 5,
+      "4,1": 5,
+      "4,2": 4,
+      "4,3": 4,
+      "4,4": 4,
+      "4,5": 5,
+      "4,6": 5,
+      "4,8": 4,
+      "4,9": 4,
+      "4,10": 4,
+      "4,11": 5,
+      "4,12": 5
     },
     "RowStyles": {
-      "0": 8
+      "0": 6
     },
     "SheetStyle": {
       "FontFamily": 1
     }
   },
   "Spans": [
-    "1,3,4,2",
-    "1,8,4,2",
-    "1,13,4,2",
-    "2,0,2,3",
-    "2,5,2,3",
-    "2,10,2,3",
     "0,0,1,3",
-    "0,3,1,4"
+    "0,3,1,4",
+    "1,0,4,2",
+    "2,2,2,3",
+    "1,11,4,2",
+    "2,8,2,3",
+    "2,5,2,1",
+    "2,6,2,1",
+    "2,7,2,1"
   ],
   "BackgroundPictures": [
     {
+      "PictureCommands": [
+        {
+          "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+          "PageName": "积分挑战赛详情",
+          "PassValues": []
+        }
+      ],
       "StyleInfo": {
-        "Fill": "linear-gradient(-45deg, Accent_1_-50 0.00%, Background_1 49.98%, Accent_5_0 100.00%)",
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Name": "066a10b5-1f0a-45f9-96ee-52d62333c1f3.png",
+      "Size": "300,64"
+    },
+    {
+      "StyleInfo": {
+        "Fill": "Accent 1 80",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "f06f1ffc-e568-4aae-8714-ec7784df04ac.png",
+      "Size": "300,64"
+    },
+    {
+      "StyleInfo": {
+        "Fill": "linear-gradient(-45deg, Text_2_60 0.00%, #FFD7FFDB 52.15%, #FFFF0000 100.00%)",
         "StrokeDashType": 8,
         "Stroke": "black",
         "StrokeThickness": 0.0

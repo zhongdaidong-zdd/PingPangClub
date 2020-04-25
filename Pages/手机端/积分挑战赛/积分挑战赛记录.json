@@ -80,7 +80,11 @@
   },
   "Formulas": {
     "25,5": "ODATA(\"用户信息?$select=ID&$filter=用户名 eq \"&IF(ISBLANK(用户名),\"null\",\"'\"&用户名&\"'\"))",
-    "1,14": "IF(B22=\"提交\",F26,O2)"
+    "1,14": "IF(B22=\"提交\",F26,O2)",
+    "27,1": "ODATA(\"积分挑战赛位次信息?$select=位次ID&$filter=用户ID eq \"&IF(ISBLANK(D4),\"null\",D4))",
+    "27,6": "ODATA(\"积分挑战赛位次信息?$select=位次ID&$filter=用户ID eq \"&IF(ISBLANK(O4),\"null\",O4))",
+    "28,1": "ODATA(\"积分挑战赛位次信息?$select=四强名次ID&$filter=用户ID eq \"&IF(ISBLANK(D4),\"null\",D4))",
+    "28,6": "ODATA(\"积分挑战赛位次信息?$select=四强名次ID&$filter=用户ID eq \"&IF(ISBLANK(O4),\"null\",O4))"
   },
   "AttachInfos": {
     "1,2": {
@@ -247,6 +251,79 @@
           "ColumnName": "姓名"
         },
         "AddNullItemWhenBinding": true,
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=积分挑战赛记录!挑战者位次ID"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                    "SerializeProperty": "=积分挑战赛记录!被挑战者位次ID"
+                  },
+                  "compareType": 4,
+                  "Id": "be0c16ef-872f-4db0-919b-44d75202c7e7"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShareCommand, Forguncy",
+                    "ShareCommandContainerRefer": {
+                      "ShareCommandContainerID": "018348d6-7e7e-4e20-a72d-a0daa19c962d"
+                    },
+                    "Params": [
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "9cbc2c18-7e67-47b8-9090-4b034dbb8bb4",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "018348d6-7e7e-4e20-a72d-a0daa19c962d"
+                          }
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "=积分挑战赛记录!D4"
+                        }
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "fe2748c2-3c2a-4897-bc96-eb357e5a1d23",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "018348d6-7e7e-4e20-a72d-a0daa19c962d"
+                          }
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "=积分挑战赛记录!O4"
+                        }
+                      },
+                      {
+                        "ParamReferObject": {
+                          "ParamID": "5baa49be-b921-4801-bd76-0279f7fe3c9b",
+                          "ShareCommandContainerReferObject": {
+                            "ShareCommandContainerID": "018348d6-7e7e-4e20-a72d-a0daa19c962d"
+                          }
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "=积分挑战赛记录!Temp"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "d1a5842c-a742-4342-a2bc-9a2d37f683ae"
+              }
+            ]
+          }
+        ],
         "UIPermissions": [
           {
             "Scope": 2,
@@ -1035,25 +1112,13 @@
       "26,18": 4,
       "27,0": 1,
       "27,1": 1,
-      "27,2": 1,
-      "27,3": 1,
-      "27,4": 1,
       "27,5": 1,
       "27,6": 1,
-      "27,7": 1,
-      "27,8": 1,
-      "27,9": 1,
-      "27,10": 1,
-      "27,11": 4,
-      "27,12": 4,
       "27,13": 4,
       "27,14": 4,
       "27,15": 4,
-      "27,16": 4,
-      "27,17": 4,
-      "27,18": 4,
       "28,0": 1,
-      "28,1": 1,
+      "28,1": 0,
       "28,2": 1,
       "28,3": 1,
       "28,4": 1,
@@ -1063,8 +1128,8 @@
       "28,8": 1,
       "28,9": 1,
       "28,10": 1,
-      "28,11": 4,
-      "28,12": 4,
+      "28,11": 1,
+      "28,12": 1,
       "28,13": 4,
       "28,14": 4,
       "28,15": 4,
@@ -1129,7 +1194,12 @@
     "26,5,1,12",
     "1,14,1,5",
     "3,3,1,5",
-    "3,14,1,5"
+    "3,14,1,5",
+    "27,1,1,4",
+    "27,6,1,7",
+    "28,1,1,4",
+    "28,6,1,7",
+    "27,15,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
@@ -1193,6 +1263,26 @@
     {
       "Name": "用户名",
       "Formula": "积分挑战赛记录!$F$25"
+    },
+    {
+      "Name": "挑战者位次ID",
+      "Formula": "积分挑战赛记录!$B$28"
+    },
+    {
+      "Name": "被挑战者位次ID",
+      "Formula": "积分挑战赛记录!$G$28"
+    },
+    {
+      "Name": "挑战者四强名次ID",
+      "Formula": "积分挑战赛记录!$B$29"
+    },
+    {
+      "Name": "被挑战者四强名次ID",
+      "Formula": "积分挑战赛记录!$G$29"
+    },
+    {
+      "Name": "Temp",
+      "Formula": "积分挑战赛记录!$P$28"
     }
   ]
 }
