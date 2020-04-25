@@ -147,7 +147,18 @@
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
-    "ModuleType": 10
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-25T19:21:22.4369614+08:00",
+    "ModuleType": 10,
+    "ToRemoveFiles": [
+      "image\\fgc_logo_dark.png",
+      "image\\fgc_logo_light.png",
+      "image\\[5620]EMIRIA-59911790.jpg"
+    ]
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
