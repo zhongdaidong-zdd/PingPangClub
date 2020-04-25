@@ -1,1 +1,163 @@
-[{"ModuleName":"Pages\\内建手机页面","ModuleType":6},{"ModuleName":"FGC_401页面_手机版","ModuleType":2},{"ModuleName":"FGC_维护中_手机版","ModuleType":2},{"ModuleName":"FGC_邮件订阅_手机版","ModuleType":2},{"ModuleName":"Pages\\内建页面","ModuleType":6},{"ModuleName":"FGC_401页面","ModuleType":1},{"ModuleName":"FGC_维护中","ModuleType":1},{"ModuleName":"FGC_邮件订阅","ModuleType":1},{"ModuleName":"Pages\\手机端","ModuleType":6},{"ModuleName":"Pages\\手机端\\位次信息","ModuleType":6},{"ModuleName":"位次信息导入","ModuleType":2},{"ModuleName":"手动导入位次信息","ModuleType":1},{"ModuleName":"Pages\\手机端\\成员信息","ModuleType":6},{"ModuleName":"成员信息登记","ModuleType":2},{"ModuleName":"Pages\\手机端\\积分挑战赛","ModuleType":6},{"ModuleName":"积分挑战比赛详情","ModuleType":2},{"ModuleName":"积分挑战赛总览","ModuleType":2},{"ModuleName":"积分挑战赛记录","ModuleType":2},{"ModuleName":"Pages\\手机端\\首页","ModuleType":6},{"ModuleName":"临时跳转页","ModuleType":2},{"ModuleName":"手机首页","ModuleType":2},{"ModuleName":"Pages\\电脑端","ModuleType":6},{"ModuleName":"Pages\\电脑端\\位次信息","ModuleType":6},{"ModuleName":"位次信息详情页面","ModuleType":1},{"ModuleName":"编辑位次信息","ModuleType":1},{"ModuleName":"首页","ModuleType":1},{"ModuleName":"FGC_母版页","ModuleType":3},{"ModuleName":"手机母版页","ModuleType":4},{"ModuleName":"母版页","ModuleType":3},{"ModuleName":"3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab","ModuleType":7},{"ModuleName":"c0399537-e72c-407d-82a2-ce31c68456a2","ModuleType":8},{"ModuleName":"2ddfe471-dd9c-4782-a3b4-3b67f963a6cb","ModuleType":9},{"ModuleName":"39ae35f5-de28-40a9-be9f-ff8adef64027","ModuleType":10},{"ModuleName":"396e6eb8-d825-4457-85fe-f7367f51b11b","ModuleType":11},{"ModuleName":"70c30736-7f75-4535-8aaa-82f185d976bb","ModuleType":12},{"ModuleName":"a7048ae8-d3c8-4136-ae00-39002dbdc3d8","ModuleType":13},{"ModuleName":"01725a5e-d06d-454e-ba18-6b6c0e11ece4","ModuleType":14},{"ModuleName":"f136f31a-5285-4164-b8e6-6a822fdf27bd","ModuleType":15}]
+[
+  {
+    "ModuleName": "Pages\\内建手机页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "FGC_401页面_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_维护中_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_邮件订阅_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages\\内建页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "FGC_401页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_维护中",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_邮件订阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\手机端",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages\\手机端\\位次信息",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "位次信息导入",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "手动导入位次信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\手机端\\成员信息",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "成员信息登记",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages\\手机端\\积分挑战赛",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "积分挑战比赛详情",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "积分挑战赛总览",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "积分挑战赛记录",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages\\手机端\\首页",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "临时跳转页",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "手机首页",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-25T18:30:34.2280422+08:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\手机端\\首页\\手机首页.json"
+    ]
+  },
+  {
+    "ModuleName": "Pages\\电脑端",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages\\电脑端\\位次信息",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "位次信息详情页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "编辑位次信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "首页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_母版页",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "手机母版页",
+    "ModuleType": 4
+  },
+  {
+    "ModuleName": "母版页",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
+    "ModuleType": 8
+  },
+  {
+    "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
+    "ModuleType": 9
+  },
+  {
+    "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
+    "ModuleType": 10
+  },
+  {
+    "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
+    "ModuleType": 11
+  },
+  {
+    "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
+    "ModuleType": 12
+  },
+  {
+    "ModuleName": "a7048ae8-d3c8-4136-ae00-39002dbdc3d8",
+    "ModuleType": 13
+  },
+  {
+    "ModuleName": "01725a5e-d06d-454e-ba18-6b6c0e11ece4",
+    "ModuleType": 14
+  },
+  {
+    "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
+    "ModuleType": 15
+  }
+]
