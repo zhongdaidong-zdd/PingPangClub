@@ -214,7 +214,8 @@
         "SecondParamValue": "",
         "InputMessageTitle": "",
         "InputMessage": "",
-        "ErrorMessage": ""
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "3,14": {
@@ -272,7 +273,8 @@
         "SecondParamValue": "",
         "InputMessageTitle": "",
         "InputMessage": "",
-        "ErrorMessage": ""
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "5,1": {
@@ -294,7 +296,7 @@
                     ]
                   },
                   "value": "3",
-                  "Id": "88b42a26-1e02-48a0-8b2f-5f3b928645b8"
+                  "Id": "de400297-7d22-4604-bf70-387e9edf90d6"
                 },
                 "CommandList": [
                   {
@@ -330,7 +332,7 @@
                     ]
                   },
                   "value": "5",
-                  "Id": "511f4d98-47fe-4c0c-9d90-c5a9aff51e26"
+                  "Id": "6ec79d0f-cb9c-499b-8263-bf2a9b52415f"
                 },
                 "CommandList": [
                   {
@@ -366,7 +368,7 @@
                     ]
                   },
                   "value": "7",
-                  "Id": "60cc4931-4978-4eaf-ad55-514f117a8a3a"
+                  "Id": "3905692d-8747-4862-aee7-0f446416fa4f"
                 },
                 "CommandList": [
                   {

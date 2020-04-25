@@ -133,7 +133,8 @@
         "SecondParamValue": "",
         "InputMessageTitle": "",
         "InputMessage": "",
-        "ErrorMessage": ""
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "6,11": {
@@ -180,7 +181,7 @@
                     ]
                   },
                   "value": "1",
-                  "Id": "a23e3196-c774-4c13-8f66-03f228211a43"
+                  "Id": "ec8ad23b-6873-4658-a835-dfbbb611fe29"
                 },
                 "CommandList": [
                   {
@@ -249,7 +250,8 @@
         "SecondParamValue": "",
         "InputMessageTitle": "",
         "InputMessage": "",
-        "ErrorMessage": ""
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "6,20": {
@@ -305,7 +307,8 @@
         "SecondParamValue": "",
         "InputMessageTitle": "",
         "InputMessage": "",
-        "ErrorMessage": ""
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "8,11": {
@@ -406,7 +409,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "301fdfad-ff93-4bd0-a85b-29736f6c0c32"
+                  "Id": "90194ff9-f91c-4b34-b2f2-355826827796"
                 },
                 "CommandList": [
                   {
@@ -651,7 +654,7 @@
                 ]
               },
               "value": "编辑",
-              "Id": "94195204-b99b-4d12-906d-8e143d6d9cd1"
+              "Id": "e785744e-b4bf-4243-986a-df8e615626b4"
             },
             "CommandList": [
               {

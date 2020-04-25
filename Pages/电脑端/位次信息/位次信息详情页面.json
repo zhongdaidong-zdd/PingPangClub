@@ -148,7 +148,7 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=位次信息详情页面!B2"
           },
-          "Id": "e6031bde-5781-4608-856a-8f89cbd79b2a"
+          "Id": "43a58624-0259-4e57-aa8d-3ae044a22afc"
         },
         "TopCondition": null,
         "OrderByCondition": {
@@ -168,7 +168,7 @@
               "Order": 0
             }
           ],
-          "Id": "eed3bbaf-c51f-43c3-aa86-3768b124e2ba"
+          "Id": "5826cad7-c8be-4e9a-9532-2bd7da4f58b1"
         },
         "ListViewStyleName": "_RS_Medium2"
       }
