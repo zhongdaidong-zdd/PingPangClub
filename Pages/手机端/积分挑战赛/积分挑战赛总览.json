@@ -114,13 +114,6 @@
         "ListViewStyleName": "_RS_Medium2"
       }
     },
-    "22,0": {
-      "BindingInfo": {
-        "TableName": "积分挑战赛总信息",
-        "ColumnName": "比赛ID"
-      },
-      "NameUsedInJavaScript": "比赛ID"
-    },
     "22,1": {
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",

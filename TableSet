@@ -56,39 +56,6 @@
           <Unique>True</Unique>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <AutoGenreatedIDSetting>
-            <Composition>
-              <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
-                <ComponentType>Date</ComponentType>
-                <Content type="System.String">
-                  <Value>yyyymmdd</Value>
-                </Content>
-              </Item>
-              <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
-                <ComponentType>StaticText</ComponentType>
-                <Content type="System.String">
-                  <Value>02</Value>
-                </Content>
-              </Item>
-              <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
-                <ComponentType>Number</ComponentType>
-                <Content type="System.Int64">
-                  <Value>3</Value>
-                </Content>
-              </Item>
-            </Composition>
-            <GenerateTime>OpenPage</GenerateTime>
-            <IgnoreConflictWhenSave>False</IgnoreConflictWhenSave>
-            <ReusingMode>Never</ReusingMode>
-          </AutoGenreatedIDSetting>
-          <ColumnType>System.String</ColumnType>
-          <DatabaseColumnType>System.String</DatabaseColumnType>
-          <IsAutoGenreatedIDSettingEnable>True</IsAutoGenreatedIDSettingEnable>
-          <Name>比赛ID</Name>
-          <Required>True</Required>
-          <Unique>True</Unique>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
           <Name>挑战方ID</Name>
@@ -193,7 +160,7 @@
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
-          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>比赛ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
@@ -209,12 +176,12 @@
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <Name>挑战方得分</Name>
+          <Name>挑战方小局得分</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <Name>被挑战方得分</Name>
+          <Name>被挑战方小局得分</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
@@ -224,7 +191,7 @@
         <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>比赛结果</Name>
+          <Name>小局胜者ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
@@ -265,7 +232,7 @@
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
-          <Name>字段1</Name>
+          <Name>越级</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
@@ -757,6 +724,55 @@
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>越级ID</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>胜者加分</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>败者积分</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>越级积分字典</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>12</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>位次ID</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
@@ -790,7 +806,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>12</Weight>
+      <Weight>13</Weight>
     </Item>
   </Tables>
 </TableSet>
