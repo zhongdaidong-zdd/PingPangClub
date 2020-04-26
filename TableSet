@@ -42,6 +42,38 @@
       <RelationTypeOnDelete>None</RelationTypeOnDelete>
       <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
     </Item>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>挑战方ID</ForeignColumn>
+      <ForeignTable>积分挑战赛总信息</ForeignTable>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>用户信息</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>被挑战方ID</ForeignColumn>
+      <ForeignTable>积分挑战赛总信息</ForeignTable>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>用户信息</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>胜者ID</ForeignColumn>
+      <ForeignTable>积分挑战赛总信息</ForeignTable>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>用户信息</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>裁判ID</ForeignColumn>
+      <ForeignTable>积分挑战赛总信息</ForeignTable>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>用户信息</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
   </Relations>
   <Tables>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
@@ -92,8 +124,8 @@
           <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>赛季ID</Name>
         </Item>
-        <Item class="Forguncy.Model.Tables.UserBindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
           <DatabaseColumnType>System.String</DatabaseColumnType>
           <Name>裁判ID</Name>
         </Item>
