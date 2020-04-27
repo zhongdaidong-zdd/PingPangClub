@@ -131,21 +131,7 @@
           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
           "SerializeProperty": "=TODAY()"
         },
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
@@ -179,21 +165,7 @@
         "DisplayColumnBindingInfo": {
           "TableName": "用户信息",
           "ColumnName": "姓名"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        }
       },
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
@@ -229,20 +201,6 @@
           "ColumnName": "姓名"
         },
         "AddNullItemWhenBinding": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": " "
       },
       "BindingInfo": {
@@ -250,13 +208,7 @@
         "ColumnName": "挑战方ID"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "3,14": {
@@ -308,7 +260,7 @@
                     "SerializeProperty": "=积分挑战赛记录!被挑战者位次ID"
                   },
                   "compareType": 4,
-                  "Id": "ee70863f-b945-4267-9171-241ff5c6916f"
+                  "Id": "00776bff-216e-4879-93bc-044e0b542d66"
                 },
                 "CommandList": [
                   {
@@ -361,20 +313,6 @@
             ]
           }
         ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": " "
       },
       "BindingInfo": {
@@ -382,13 +320,7 @@
         "ColumnName": "被挑战方ID"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "3,23": {
@@ -400,81 +332,31 @@
     "5,3": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "5,11": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "5,23": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
         "TableName": "积分挑战赛总信息",
@@ -484,81 +366,31 @@
     "7,3": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "7,11": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "7,23": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 0
       },
       "BindingInfo": {
@@ -569,61 +401,25 @@
     "9,3": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "9,11": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "9,23": {
@@ -635,61 +431,25 @@
     "11,3": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "11,11": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "11,23": {
@@ -701,61 +461,25 @@
     "13,3": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "13,11": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "13,23": {
@@ -767,61 +491,25 @@
     "15,3": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "15,11": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "15,23": {
@@ -833,61 +521,25 @@
     "17,3": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "17,11": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": ""
+        "FirstParamValue": "0"
       }
     },
     "17,23": {
@@ -915,7 +567,7 @@
                     ]
                   },
                   "value": "1",
-                  "Id": "cf0f08c1-6b91-44bb-8d18-23c29bc8ae2e"
+                  "Id": "5a4f4aa5-4532-4d2c-8c8f-3a4d22d48ff2"
                 },
                 "CommandList": [
                   {
@@ -951,7 +603,7 @@
                     ]
                   },
                   "value": "2",
-                  "Id": "819e16b9-362e-4f03-b72b-ec668e6a84d7"
+                  "Id": "0919963a-5502-4e59-b699-57b841b8d407"
                 },
                 "CommandList": [
                   {
@@ -987,7 +639,7 @@
                     ]
                   },
                   "value": "3",
-                  "Id": "19857baa-32c4-4210-a50e-6edff01aa13b"
+                  "Id": "713a41a6-6816-463f-bd90-7369a521f1d2"
                 },
                 "CommandList": [
                   {
@@ -1023,7 +675,7 @@
                     ]
                   },
                   "value": "4",
-                  "Id": "a642b6db-5bac-40c4-8780-cae885aaa731"
+                  "Id": "fc97a912-dba7-4b19-8dcc-18f27c7de883"
                 },
                 "CommandList": [
                   {
@@ -1059,7 +711,7 @@
                     ]
                   },
                   "value": "5",
-                  "Id": "17c2520c-5ac3-46f7-8c24-62d07fad4aff"
+                  "Id": "cad77a48-63f1-4340-a689-d4a08dbfdf24"
                 },
                 "CommandList": [
                   {
@@ -1095,7 +747,7 @@
                     ]
                   },
                   "value": "6",
-                  "Id": "9e3cae99-ecbb-4846-a8ed-17618cca4f37"
+                  "Id": "98598804-ece5-4a6c-a90b-a29f821429df"
                 },
                 "CommandList": [
                   {
@@ -1131,7 +783,7 @@
                     ]
                   },
                   "value": "7",
-                  "Id": "b29104a1-3d0e-467c-b799-2dd2c2221758"
+                  "Id": "baeccda8-97fe-4b3a-8d7e-41e516af248d"
                 },
                 "CommandList": [
                   {
@@ -1145,21 +797,7 @@
           }
         ],
         "Text": "增加场次",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "19,9": {
@@ -1181,7 +819,7 @@
                     ]
                   },
                   "value": "1",
-                  "Id": "a8f9e71e-f80c-4efe-8a28-038944f402f9"
+                  "Id": "276aac67-b8a3-488f-a826-7aa1654e7b51"
                 },
                 "CommandList": [
                   {
@@ -1203,7 +841,7 @@
                     ]
                   },
                   "value": "2",
-                  "Id": "afccf2e0-d034-4e2c-972e-97017dee5268"
+                  "Id": "c6df29a8-2c07-4e2c-88d5-13c3341f4ab2"
                 },
                 "CommandList": [
                   {
@@ -1239,7 +877,7 @@
                     ]
                   },
                   "value": "3",
-                  "Id": "fd7ac801-29a1-47f6-bd16-4628d594955a"
+                  "Id": "f4e23a13-957e-4863-9938-51ca7952435b"
                 },
                 "CommandList": [
                   {
@@ -1275,7 +913,7 @@
                     ]
                   },
                   "value": "4",
-                  "Id": "09aa1d51-2348-41bb-bddf-33f26951ff06"
+                  "Id": "0444e808-6a82-4267-86a8-0de9d507f064"
                 },
                 "CommandList": [
                   {
@@ -1311,7 +949,7 @@
                     ]
                   },
                   "value": "5",
-                  "Id": "56bcbb7c-f79a-4466-924d-c51e2b5e3a99"
+                  "Id": "4607c117-794d-4d3b-b640-ad60dfd1a985"
                 },
                 "CommandList": [
                   {
@@ -1347,7 +985,7 @@
                     ]
                   },
                   "value": "6",
-                  "Id": "1d305cf5-dcc2-4bee-8a12-dc210cf831e7"
+                  "Id": "fb1a532b-62d8-48fe-9a88-2eafdcbe9956"
                 },
                 "CommandList": [
                   {
@@ -1378,12 +1016,12 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=积分挑战赛记录!I25"
+                        "SerializeProperty": "=积分挑战赛记录!局数"
                       }
                     ]
                   },
                   "value": "7",
-                  "Id": "7e8159e7-8b29-4d64-b3e1-7fc81ddf26c6"
+                  "Id": "9e7f3a86-de56-47da-addd-7383aeb6efbd"
                 },
                 "CommandList": [
                   {
@@ -1411,21 +1049,7 @@
           }
         ],
         "Text": "删除场次",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "19,23": {
@@ -1438,6 +1062,37 @@
       "CellType": {
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=积分挑战赛记录!挑战者ID"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                    "SerializeProperty": "=积分挑战赛记录!擂主ID"
+                  },
+                  "Id": "d0459e42-87e4-4145-a66e-f1ea4fa1bd7d"
+                },
+                "CommandList": [
+                  {
+                    "$type": "BreakCommand.BreakCommand, BreakCommand",
+                    "ShowBreakMessage": true,
+                    "BreakMessage": "狠起来连自己都打！！！"
+                  }
+                ],
+                "ID": "d05b8bb2-57b3-40d0-9ca4-8245a9a7e090"
+              }
+            ]
+          },
           {
             "$type": "Forguncy.Model.LoopCommand, Forguncy",
             "LoopInfo": {
@@ -1466,7 +1121,7 @@
                         },
                         "value": "%Null%",
                         "compareType": 1,
-                        "Id": "6edcf274-8196-4b17-98f1-fd982e8b49bb"
+                        "Id": "c0d1a80d-e6a2-489e-922a-0d00307de65e"
                       },
                       "Condition2": {
                         "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -1482,9 +1137,9 @@
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                           "SerializeProperty": "=积分挑战赛记录!L6"
                         },
-                        "Id": "087af65b-a41c-417e-8a41-58448907a430"
+                        "Id": "46c77b9a-b555-4c3d-a108-4cb1e9597401"
                       },
-                      "Id": "e2c2e259-1151-40f2-b2d1-96c11eb7fd00"
+                      "Id": "91ee593b-3dc0-4228-806f-d76b273880f5"
                     },
                     "CommandList": [
                       {
@@ -1496,6 +1151,37 @@
                     "ID": "fa2ca339-0d84-41fd-8a1d-de645b7e3e4d"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=积分挑战赛记录!挑战者得分"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                    "SerializeProperty": "=积分挑战赛记录!擂主得分"
+                  },
+                  "Id": "8828534e-d0db-46c5-88a0-65b921dd663a"
+                },
+                "CommandList": [
+                  {
+                    "$type": "BreakCommand.BreakCommand, BreakCommand",
+                    "ShowBreakMessage": true,
+                    "BreakMessage": "请决战到天亮，冲鸭！(大局比赛未分胜负)"
+                  }
+                ],
+                "ID": "d05b8bb2-57b3-40d0-9ca4-8245a9a7e090"
               }
             ]
           },
@@ -1546,7 +1232,7 @@
                           },
                           "value": "%Null%",
                           "compareType": 1,
-                          "Id": "cfad8c0e-9250-426f-8557-8586f7c84488"
+                          "Id": "486980e4-b039-4f50-8bae-b10fb78394d2"
                         },
                         "Condition2": {
                           "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -1560,9 +1246,9 @@
                           },
                           "value": "%Null%",
                           "compareType": 1,
-                          "Id": "666fd0d2-7b9d-4e5c-aff0-d8db5b369891"
+                          "Id": "7cfd0544-3ee5-4251-a795-bf7d65b4e9b7"
                         },
-                        "Id": "39133530-6e1c-4978-835e-3a72c04c3852"
+                        "Id": "0befccb1-719a-41ee-9e81-5fd8fe0a9e8a"
                       },
                       "Condition2": {
                         "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -1576,9 +1262,9 @@
                         },
                         "value": "%Null%",
                         "compareType": 1,
-                        "Id": "90ad25cd-fa06-44aa-9a06-ddfa829c71bc"
+                        "Id": "6eb745f1-5fb9-4e69-83b2-61dd047d1a36"
                       },
-                      "Id": "247d8488-b0f5-45fe-86a1-9910ed0ad739"
+                      "Id": "8740e15e-451e-4d48-83e9-a8b8e200e5a6"
                     },
                     "CommandList": [
                       {
@@ -1654,21 +1340,7 @@
           }
         ],
         "Text": "提交",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "21,23": {

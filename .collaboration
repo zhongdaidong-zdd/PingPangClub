@@ -65,16 +65,7 @@
   },
   {
     "ModuleName": "积分挑战赛记录",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-27T19:24:52.6306463+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\手机端\\积分挑战赛\\积分挑战赛记录.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "Pages\\手机端\\首页",
@@ -158,28 +149,10 @@
   },
   {
     "ModuleName": "葡萄城乒乓球俱乐部",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-27T19:22:48.8492285+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\手机端\\首页\\葡萄城乒乓球俱乐部.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "积分挑战赛详情",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-27T19:23:21.0942004+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\手机端\\积分挑战赛\\积分挑战赛详情.json"
-    ]
+    "ModuleType": 2
   }
 ]
